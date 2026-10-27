@@ -1,0 +1,649 @@
+﻿sequence,request_id,block_id,query_id,repetition,condition,status,selection_usable,first_selection_success,abstain,ranked_doc_ids,ranked_grades,rr_at_3,recall_at_3,target_hit_at_1,target_hit_at_3,target_rr_at_3,target_rank_within_top3,quote_fidelity,issues,finish_reason
+1,Q011_L__rep3__faq_geo,Q011_L__rep3,Q011_L,3,faq_geo,response,True,1,False,"[""DOC_011"", ""DOC_003"", ""DOC_017""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+2,Q011_L__rep3__full_geo,Q011_L__rep3,Q011_L,3,full_geo,response,True,1,False,"[""DOC_011"", ""DOC_003"", ""DOC_006""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+3,Q011_L__rep3__baseline,Q011_L__rep3,Q011_L,3,baseline,response,False,0,,[],[],0.0,0.0,0,0,0.0,,not_evaluable,"[""Response is not valid JSON""]",stop
+4,Q011_L__rep3__entity_structure_geo,Q011_L__rep3,Q011_L,3,entity_structure_geo,response,True,1,False,"[""DOC_011"", ""DOC_003"", ""DOC_017""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+5,Q011_L__rep2__entity_structure_geo,Q011_L__rep2,Q011_L,2,entity_structure_geo,response,True,1,False,"[""DOC_011"", ""DOC_003"", ""DOC_017""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+6,Q011_L__rep2__faq_geo,Q011_L__rep2,Q011_L,2,faq_geo,response,True,1,False,"[""DOC_011"", ""DOC_003"", ""DOC_017""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+7,Q011_L__rep2__full_geo,Q011_L__rep2,Q011_L,2,full_geo,response,True,1,False,"[""DOC_011"", ""DOC_003"", ""DOC_017""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+8,Q011_L__rep2__baseline,Q011_L__rep2,Q011_L,2,baseline,response,True,1,False,"[""DOC_011"", ""DOC_003"", ""DOC_017""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+9,Q017_T__rep3__faq_geo,Q017_T__rep3,Q017_T,3,faq_geo,response,False,0,,[],[],0.0,0.0,0,0,0.0,,not_evaluable,"[""Response is not valid JSON""]",stop
+10,Q017_T__rep3__baseline,Q017_T__rep3,Q017_T,3,baseline,response,True,1,False,"[""DOC_017"", ""DOC_006"", ""DOC_003""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,fail,"[""Quote exceeds 50 words""]",stop
+11,Q017_T__rep3__entity_structure_geo,Q017_T__rep3,Q017_T,3,entity_structure_geo,response,True,1,False,"[""DOC_017"", ""DOC_006"", ""DOC_011""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,fail,"[""First-ranked ID not present in answer"", ""Quote exceeds 50 words""]",stop
+12,Q017_T__rep3__full_geo,Q017_T__rep3,Q017_T,3,full_geo,response,True,1,False,"[""DOC_017"", ""DOC_006"", ""DOC_003""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,fail,"[""Quote exceeds 50 words""]",stop
+13,Q004_A__rep2__entity_structure_geo,Q004_A__rep2,Q004_A,2,entity_structure_geo,response,False,0,,[],[],0.0,0.0,0,0,0.0,,not_evaluable,"[""Response is not valid JSON""]",stop
+14,Q004_A__rep2__baseline,Q004_A__rep2,Q004_A,2,baseline,response,True,1,False,"[""DOC_004"", ""DOC_013"", ""DOC_005""]","[3, 2, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+15,Q004_A__rep2__faq_geo,Q004_A__rep2,Q004_A,2,faq_geo,response,True,1,False,"[""DOC_004"", ""DOC_013"", ""DOC_005""]","[3, 2, 1]",1.0,1.0,1,1,1.0,1,fail,"[""Quote not found after whitespace normalization""]",stop
+16,Q004_A__rep2__full_geo,Q004_A__rep2,Q004_A,2,full_geo,response,True,1,False,"[""DOC_004"", ""DOC_013"", ""DOC_005""]","[3, 2, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+17,Q012_T__rep2__faq_geo,Q012_T__rep2,Q012_T,2,faq_geo,response,True,1,False,"[""DOC_012"", ""DOC_011"", ""DOC_003""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,fail,"[""Quote not found after whitespace normalization""]",stop
+18,Q012_T__rep2__entity_structure_geo,Q012_T__rep2,Q012_T,2,entity_structure_geo,response,True,1,False,"[""DOC_012"", ""DOC_011"", ""DOC_003""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+19,Q012_T__rep2__baseline,Q012_T__rep2,Q012_T,2,baseline,response,True,1,False,"[""DOC_012"", ""DOC_011"", ""DOC_003""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+20,Q012_T__rep2__full_geo,Q012_T__rep2,Q012_T,2,full_geo,response,True,1,False,"[""DOC_012"", ""DOC_011"", ""DOC_003""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+21,Q002_T__rep2__entity_structure_geo,Q002_T__rep2,Q002_T,2,entity_structure_geo,response,True,1,False,"[""DOC_002"", ""DOC_010"", ""DOC_016""]","[3, 0, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+22,Q002_T__rep2__full_geo,Q002_T__rep2,Q002_T,2,full_geo,response,True,1,False,"[""DOC_002"", ""DOC_010"", ""DOC_009""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+23,Q002_T__rep2__baseline,Q002_T__rep2,Q002_T,2,baseline,response,False,0,,[],[],0.0,0.0,0,0,0.0,,not_evaluable,"[""Response is not valid JSON""]",stop
+24,Q002_T__rep2__faq_geo,Q002_T__rep2,Q002_T,2,faq_geo,response,True,1,False,"[""DOC_002"", ""DOC_010"", ""DOC_007""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+25,Q013_T__rep1__full_geo,Q013_T__rep1,Q013_T,1,full_geo,response,False,0,,[],[],0.0,0.0,0,0,0.0,,not_evaluable,"[""Response is not valid JSON""]",stop
+26,Q013_T__rep1__faq_geo,Q013_T__rep1,Q013_T,1,faq_geo,response,True,1,False,"[""DOC_013"", ""DOC_004"", ""DOC_014""]","[3, 2, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+27,Q013_T__rep1__entity_structure_geo,Q013_T__rep1,Q013_T,1,entity_structure_geo,response,True,1,False,"[""DOC_013"", ""DOC_004"", ""DOC_005""]","[3, 2, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+28,Q013_T__rep1__baseline,Q013_T__rep1,Q013_T,1,baseline,response,True,1,False,"[""DOC_013"", ""DOC_004"", ""DOC_010""]","[3, 2, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+29,Q001_L__rep3__baseline,Q001_L__rep3,Q001_L,3,baseline,response,True,1,False,"[""DOC_001"", ""DOC_007"", ""DOC_008""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+30,Q001_L__rep3__entity_structure_geo,Q001_L__rep3,Q001_L,3,entity_structure_geo,response,True,1,False,"[""DOC_001"", ""DOC_007"", ""DOC_008""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,fail,"[""Quote exceeds 50 words""]",stop
+31,Q001_L__rep3__full_geo,Q001_L__rep3,Q001_L,3,full_geo,response,True,1,False,"[""DOC_001"", ""DOC_007"", ""DOC_008""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,fail,"[""Quote not found after whitespace normalization""]",stop
+32,Q001_L__rep3__faq_geo,Q001_L__rep3,Q001_L,3,faq_geo,response,True,1,False,"[""DOC_001"", ""DOC_007"", ""DOC_008""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+33,Q004_L__rep1__faq_geo,Q004_L__rep1,Q004_L,1,faq_geo,response,True,1,False,"[""DOC_004"", ""DOC_013"", ""DOC_005""]","[3, 2, 1]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+34,Q004_L__rep1__baseline,Q004_L__rep1,Q004_L,1,baseline,response,True,1,False,"[""DOC_004"", ""DOC_013"", ""DOC_005""]","[3, 2, 1]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+35,Q004_L__rep1__entity_structure_geo,Q004_L__rep1,Q004_L,1,entity_structure_geo,response,True,1,False,"[""DOC_004"", ""DOC_013"", ""DOC_005""]","[3, 2, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+36,Q004_L__rep1__full_geo,Q004_L__rep1,Q004_L,1,full_geo,response,True,1,False,"[""DOC_004"", ""DOC_013"", ""DOC_014""]","[3, 2, 1]",1.0,1.0,1,1,1.0,1,fail,"[""Quote not found after whitespace normalization""]",stop
+37,Q006_A__rep3__faq_geo,Q006_A__rep3,Q006_A,3,faq_geo,response,True,1,False,"[""DOC_006"", ""DOC_017"", ""DOC_003""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,fail,"[""Quote not found after whitespace normalization"", ""Quote not found after whitespace normalization""]",stop
+38,Q006_A__rep3__baseline,Q006_A__rep3,Q006_A,3,baseline,response,True,1,False,"[""DOC_006"", ""DOC_017"", ""DOC_003""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,fail,"[""First-ranked ID not present in answer"", ""Quote not found after whitespace normalization"", ""Quote not found after whitespace normalization""]",stop
+39,Q006_A__rep3__full_geo,Q006_A__rep3,Q006_A,3,full_geo,response,True,1,False,"[""DOC_006"", ""DOC_017"", ""DOC_018""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+40,Q006_A__rep3__entity_structure_geo,Q006_A__rep3,Q006_A,3,entity_structure_geo,response,True,1,False,"[""DOC_006"", ""DOC_017"", ""DOC_018""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,fail,"[""Quote not found after whitespace normalization"", ""Quote not found after whitespace normalization""]",stop
+41,Q016_A__rep3__full_geo,Q016_A__rep3,Q016_A,3,full_geo,response,False,0,,[],[],0.0,0.0,0,0,0.0,,not_evaluable,"[""Response is not valid JSON""]",stop
+42,Q016_A__rep3__faq_geo,Q016_A__rep3,Q016_A,3,faq_geo,response,True,1,False,"[""DOC_016"", ""DOC_005"", ""DOC_015""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+43,Q016_A__rep3__baseline,Q016_A__rep3,Q016_A,3,baseline,response,True,1,False,"[""DOC_016"", ""DOC_005"", ""DOC_015""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+44,Q016_A__rep3__entity_structure_geo,Q016_A__rep3,Q016_A,3,entity_structure_geo,response,True,1,False,"[""DOC_016"", ""DOC_005"", ""DOC_015""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+45,Q010_L__rep2__entity_structure_geo,Q010_L__rep2,Q010_L,2,entity_structure_geo,response,True,1,False,"[""DOC_010"", ""DOC_009"", ""DOC_007""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+46,Q010_L__rep2__full_geo,Q010_L__rep2,Q010_L,2,full_geo,response,True,1,False,"[""DOC_010"", ""DOC_009"", ""DOC_007""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+47,Q010_L__rep2__faq_geo,Q010_L__rep2,Q010_L,2,faq_geo,response,False,0,,[],[],0.0,0.0,0,0,0.0,,not_evaluable,"[""Response is not valid JSON""]",stop
+48,Q010_L__rep2__baseline,Q010_L__rep2,Q010_L,2,baseline,response,True,1,False,"[""DOC_010"", ""DOC_009"", ""DOC_007""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+49,Q004_A__rep1__full_geo,Q004_A__rep1,Q004_A,1,full_geo,response,True,1,False,"[""DOC_004"", ""DOC_013"", ""DOC_014""]","[3, 2, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+50,Q004_A__rep1__entity_structure_geo,Q004_A__rep1,Q004_A,1,entity_structure_geo,response,True,1,False,"[""DOC_004"", ""DOC_013"", ""DOC_014""]","[3, 2, 1]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+51,Q004_A__rep1__faq_geo,Q004_A__rep1,Q004_A,1,faq_geo,response,True,1,False,"[""DOC_004"", ""DOC_013"", ""DOC_005""]","[3, 2, 1]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+52,Q004_A__rep1__baseline,Q004_A__rep1,Q004_A,1,baseline,response,False,0,,[],[],0.0,0.0,0,0,0.0,,not_evaluable,"[""Response is not valid JSON""]",stop
+53,Q018_A__rep1__faq_geo,Q018_A__rep1,Q018_A,1,faq_geo,response,True,1,False,"[""DOC_018"", ""DOC_017"", ""DOC_006""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+54,Q018_A__rep1__baseline,Q018_A__rep1,Q018_A,1,baseline,response,True,1,False,"[""DOC_018"", ""DOC_017"", ""DOC_005""]","[3, 0, 1]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+55,Q018_A__rep1__entity_structure_geo,Q018_A__rep1,Q018_A,1,entity_structure_geo,response,True,1,False,"[""DOC_018"", ""DOC_017"", ""DOC_006""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+56,Q018_A__rep1__full_geo,Q018_A__rep1,Q018_A,1,full_geo,response,True,1,False,"[""DOC_018"", ""DOC_017"", ""DOC_006""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+57,Q016_T__rep1__entity_structure_geo,Q016_T__rep1,Q016_T,1,entity_structure_geo,response,True,1,False,"[""DOC_016"", ""DOC_005"", ""DOC_015""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+58,Q016_T__rep1__faq_geo,Q016_T__rep1,Q016_T,1,faq_geo,response,True,1,False,"[""DOC_016"", ""DOC_005"", ""DOC_015""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+59,Q016_T__rep1__full_geo,Q016_T__rep1,Q016_T,1,full_geo,response,True,1,False,"[""DOC_016"", ""DOC_005"", ""DOC_015""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+60,Q016_T__rep1__baseline,Q016_T__rep1,Q016_T,1,baseline,response,True,1,False,"[""DOC_016"", ""DOC_005"", ""DOC_015""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+61,Q018_T__rep3__baseline,Q018_T__rep3,Q018_T,3,baseline,response,True,1,False,"[""DOC_018"", ""DOC_017"", ""DOC_006""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+62,Q018_T__rep3__faq_geo,Q018_T__rep3,Q018_T,3,faq_geo,response,True,1,False,"[""DOC_018"", ""DOC_006"", ""DOC_017""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+63,Q018_T__rep3__full_geo,Q018_T__rep3,Q018_T,3,full_geo,response,True,1,False,"[""DOC_018"", ""DOC_006"", ""DOC_017""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+64,Q018_T__rep3__entity_structure_geo,Q018_T__rep3,Q018_T,3,entity_structure_geo,response,True,1,False,"[""DOC_018"", ""DOC_017"", ""DOC_006""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+65,Q009_A__rep1__entity_structure_geo,Q009_A__rep1,Q009_A,1,entity_structure_geo,response,True,1,False,"[""DOC_009"", ""DOC_010"", ""DOC_002""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+66,Q009_A__rep1__baseline,Q009_A__rep1,Q009_A,1,baseline,response,True,1,False,"[""DOC_009"", ""DOC_002"", ""DOC_010""]","[3, 0, 1]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+67,Q009_A__rep1__full_geo,Q009_A__rep1,Q009_A,1,full_geo,response,True,1,False,"[""DOC_009"", ""DOC_010"", ""DOC_002""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+68,Q009_A__rep1__faq_geo,Q009_A__rep1,Q009_A,1,faq_geo,response,True,1,False,"[""DOC_009"", ""DOC_010"", ""DOC_002""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+69,Q009_T__rep2__entity_structure_geo,Q009_T__rep2,Q009_T,2,entity_structure_geo,response,True,1,False,"[""DOC_009"", ""DOC_010"", ""DOC_002""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+70,Q009_T__rep2__full_geo,Q009_T__rep2,Q009_T,2,full_geo,response,True,1,False,"[""DOC_009"", ""DOC_010"", ""DOC_002""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+71,Q009_T__rep2__baseline,Q009_T__rep2,Q009_T,2,baseline,response,True,1,False,"[""DOC_009"", ""DOC_010"", ""DOC_002""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+72,Q009_T__rep2__faq_geo,Q009_T__rep2,Q009_T,2,faq_geo,response,True,1,False,"[""DOC_009"", ""DOC_010"", ""DOC_002""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+73,Q008_L__rep3__entity_structure_geo,Q008_L__rep3,Q008_L,3,entity_structure_geo,response,True,1,False,"[""DOC_008"", ""DOC_007"", ""DOC_001""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+74,Q008_L__rep3__full_geo,Q008_L__rep3,Q008_L,3,full_geo,response,True,1,False,"[""DOC_008"", ""DOC_007"", ""DOC_001""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+75,Q008_L__rep3__faq_geo,Q008_L__rep3,Q008_L,3,faq_geo,response,True,1,False,"[""DOC_008"", ""DOC_007"", ""DOC_001""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+76,Q008_L__rep3__baseline,Q008_L__rep3,Q008_L,3,baseline,response,True,1,False,"[""DOC_008"", ""DOC_007"", ""DOC_001""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+77,Q015_T__rep3__baseline,Q015_T__rep3,Q015_T,3,baseline,response,True,1,False,"[""DOC_015"", ""DOC_005"", ""DOC_016""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+78,Q015_T__rep3__entity_structure_geo,Q015_T__rep3,Q015_T,3,entity_structure_geo,response,True,1,False,"[""DOC_015"", ""DOC_005"", ""DOC_016""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+79,Q015_T__rep3__faq_geo,Q015_T__rep3,Q015_T,3,faq_geo,response,True,1,False,"[""DOC_015"", ""DOC_005"", ""DOC_016""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+80,Q015_T__rep3__full_geo,Q015_T__rep3,Q015_T,3,full_geo,response,True,1,False,"[""DOC_015"", ""DOC_005"", ""DOC_016""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+81,Q003_L__rep3__baseline,Q003_L__rep3,Q003_L,3,baseline,response,True,1,False,"[""DOC_003"", ""DOC_017"", ""DOC_011""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+82,Q003_L__rep3__entity_structure_geo,Q003_L__rep3,Q003_L,3,entity_structure_geo,response,True,1,False,"[""DOC_003"", ""DOC_017"", ""DOC_011""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+83,Q003_L__rep3__full_geo,Q003_L__rep3,Q003_L,3,full_geo,response,True,1,False,"[""DOC_003"", ""DOC_017"", ""DOC_011""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,fail,"[""Quote not found after whitespace normalization""]",stop
+84,Q003_L__rep3__faq_geo,Q003_L__rep3,Q003_L,3,faq_geo,response,True,1,False,"[""DOC_003"", ""DOC_017"", ""DOC_011""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,fail,"[""Quote not found after whitespace normalization""]",stop
+85,Q015_L__rep1__full_geo,Q015_L__rep1,Q015_L,1,full_geo,response,True,1,False,"[""DOC_015"", ""DOC_005"", ""DOC_016""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+86,Q015_L__rep1__entity_structure_geo,Q015_L__rep1,Q015_L,1,entity_structure_geo,response,True,1,False,"[""DOC_015"", ""DOC_005"", ""DOC_016""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+87,Q015_L__rep1__baseline,Q015_L__rep1,Q015_L,1,baseline,response,False,0,,[],[],0.0,0.0,0,0,0.0,,not_evaluable,"[""Response is not valid JSON""]",stop
+88,Q015_L__rep1__faq_geo,Q015_L__rep1,Q015_L,1,faq_geo,response,True,1,False,"[""DOC_015"", ""DOC_005"", ""DOC_016""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+89,Q007_L__rep3__faq_geo,Q007_L__rep3,Q007_L,3,faq_geo,response,True,1,False,"[""DOC_007"", ""DOC_001"", ""DOC_008""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+90,Q007_L__rep3__entity_structure_geo,Q007_L__rep3,Q007_L,3,entity_structure_geo,response,True,1,False,"[""DOC_007"", ""DOC_008"", ""DOC_001""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+91,Q007_L__rep3__full_geo,Q007_L__rep3,Q007_L,3,full_geo,response,True,1,False,"[""DOC_007"", ""DOC_008"", ""DOC_001""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+92,Q007_L__rep3__baseline,Q007_L__rep3,Q007_L,3,baseline,response,True,1,False,"[""DOC_007"", ""DOC_001"", ""DOC_008""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+93,Q009_A__rep2__baseline,Q009_A__rep2,Q009_A,2,baseline,response,True,1,False,"[""DOC_009"", ""DOC_010"", ""DOC_002""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+94,Q009_A__rep2__faq_geo,Q009_A__rep2,Q009_A,2,faq_geo,response,True,1,False,"[""DOC_009"", ""DOC_002"", ""DOC_010""]","[3, 0, 1]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+95,Q009_A__rep2__entity_structure_geo,Q009_A__rep2,Q009_A,2,entity_structure_geo,response,True,1,False,"[""DOC_009"", ""DOC_010"", ""DOC_002""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+96,Q009_A__rep2__full_geo,Q009_A__rep2,Q009_A,2,full_geo,response,True,1,False,"[""DOC_009"", ""DOC_010"", ""DOC_002""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+97,Q008_T__rep1__entity_structure_geo,Q008_T__rep1,Q008_T,1,entity_structure_geo,response,True,1,False,"[""DOC_008"", ""DOC_007"", ""DOC_001""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+98,Q008_T__rep1__full_geo,Q008_T__rep1,Q008_T,1,full_geo,response,False,0,,[],[],0.0,0.0,0,0,0.0,,not_evaluable,"[""Response is not valid JSON""]",stop
+99,Q008_T__rep1__faq_geo,Q008_T__rep1,Q008_T,1,faq_geo,response,True,1,False,"[""DOC_008"", ""DOC_007"", ""DOC_001""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+100,Q008_T__rep1__baseline,Q008_T__rep1,Q008_T,1,baseline,response,True,1,False,"[""DOC_008"", ""DOC_007"", ""DOC_001""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+101,Q012_L__rep1__faq_geo,Q012_L__rep1,Q012_L,1,faq_geo,response,True,1,False,"[""DOC_012"", ""DOC_011"", ""DOC_003""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+102,Q012_L__rep1__baseline,Q012_L__rep1,Q012_L,1,baseline,response,True,1,False,"[""DOC_012"", ""DOC_011"", ""DOC_003""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+103,Q012_L__rep1__full_geo,Q012_L__rep1,Q012_L,1,full_geo,response,True,1,False,"[""DOC_012"", ""DOC_011"", ""DOC_003""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+104,Q012_L__rep1__entity_structure_geo,Q012_L__rep1,Q012_L,1,entity_structure_geo,response,True,1,False,"[""DOC_012"", ""DOC_011"", ""DOC_003""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+105,Q011_A__rep2__full_geo,Q011_A__rep2,Q011_A,2,full_geo,response,True,1,False,"[""DOC_011"", ""DOC_003"", ""DOC_012""]","[3, 0, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+106,Q011_A__rep2__faq_geo,Q011_A__rep2,Q011_A,2,faq_geo,response,True,1,False,"[""DOC_011"", ""DOC_003"", ""DOC_012""]","[3, 0, 1]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+107,Q011_A__rep2__baseline,Q011_A__rep2,Q011_A,2,baseline,response,True,1,False,"[""DOC_011"", ""DOC_003"", ""DOC_012""]","[3, 0, 1]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+108,Q011_A__rep2__entity_structure_geo,Q011_A__rep2,Q011_A,2,entity_structure_geo,response,True,1,False,"[""DOC_011"", ""DOC_003"", ""DOC_012""]","[3, 0, 1]",1.0,1.0,1,1,1.0,1,fail,"[""Quote not found after whitespace normalization""]",stop
+109,Q005_T__rep2__entity_structure_geo,Q005_T__rep2,Q005_T,2,entity_structure_geo,response,True,1,False,"[""DOC_005"", ""DOC_015"", ""DOC_016""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+110,Q005_T__rep2__faq_geo,Q005_T__rep2,Q005_T,2,faq_geo,response,False,0,,[],[],0.0,0.0,0,0,0.0,,not_evaluable,"[""Response is not valid JSON""]",stop
+111,Q005_T__rep2__full_geo,Q005_T__rep2,Q005_T,2,full_geo,response,True,1,False,"[""DOC_005"", ""DOC_016"", ""DOC_015""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+112,Q005_T__rep2__baseline,Q005_T__rep2,Q005_T,2,baseline,response,True,1,False,"[""DOC_005"", ""DOC_016"", ""DOC_015""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+113,Q014_T__rep2__faq_geo,Q014_T__rep2,Q014_T,2,faq_geo,response,True,1,False,"[""DOC_014"", ""DOC_004"", ""DOC_013""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+114,Q014_T__rep2__entity_structure_geo,Q014_T__rep2,Q014_T,2,entity_structure_geo,response,True,1,False,"[""DOC_014"", ""DOC_004"", ""DOC_013""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+115,Q014_T__rep2__baseline,Q014_T__rep2,Q014_T,2,baseline,response,True,1,False,"[""DOC_014"", ""DOC_004"", ""DOC_013""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+116,Q014_T__rep2__full_geo,Q014_T__rep2,Q014_T,2,full_geo,response,False,0,,[],[],0.0,0.0,0,0,0.0,,not_evaluable,"[""Response is not valid JSON""]",stop
+117,Q003_A__rep3__baseline,Q003_A__rep3,Q003_A,3,baseline,response,True,1,False,"[""DOC_003"", ""DOC_011"", ""DOC_017""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,fail,"[""Quote not found after whitespace normalization""]",stop
+118,Q003_A__rep3__faq_geo,Q003_A__rep3,Q003_A,3,faq_geo,response,True,1,False,"[""DOC_003"", ""DOC_011"", ""DOC_017""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,fail,"[""Quote not found after whitespace normalization""]",stop
+119,Q003_A__rep3__entity_structure_geo,Q003_A__rep3,Q003_A,3,entity_structure_geo,response,True,1,False,"[""DOC_003"", ""DOC_011"", ""DOC_017""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,fail,"[""Quote not found after whitespace normalization""]",stop
+120,Q003_A__rep3__full_geo,Q003_A__rep3,Q003_A,3,full_geo,response,True,1,False,"[""DOC_003"", ""DOC_011"", ""DOC_017""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+121,Q013_T__rep2__faq_geo,Q013_T__rep2,Q013_T,2,faq_geo,response,True,1,False,"[""DOC_013"", ""DOC_004"", ""DOC_014""]","[3, 2, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+122,Q013_T__rep2__baseline,Q013_T__rep2,Q013_T,2,baseline,response,True,1,False,"[""DOC_013"", ""DOC_004"", ""DOC_014""]","[3, 2, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+123,Q013_T__rep2__full_geo,Q013_T__rep2,Q013_T,2,full_geo,response,True,1,False,"[""DOC_013"", ""DOC_004"", ""DOC_014""]","[3, 2, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+124,Q013_T__rep2__entity_structure_geo,Q013_T__rep2,Q013_T,2,entity_structure_geo,response,True,1,False,"[""DOC_013"", ""DOC_004"", ""DOC_014""]","[3, 2, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+125,Q005_T__rep1__entity_structure_geo,Q005_T__rep1,Q005_T,1,entity_structure_geo,response,True,1,False,"[""DOC_005"", ""DOC_016"", ""DOC_018""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,fail,"[""First-ranked ID not present in answer"", ""Quote not found after whitespace normalization""]",stop
+126,Q005_T__rep1__baseline,Q005_T__rep1,Q005_T,1,baseline,response,True,1,False,"[""DOC_005"", ""DOC_016"", ""DOC_015""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+127,Q005_T__rep1__full_geo,Q005_T__rep1,Q005_T,1,full_geo,response,True,1,False,"[""DOC_005"", ""DOC_016"", ""DOC_015""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,fail,"[""Quote not found after whitespace normalization""]",stop
+128,Q005_T__rep1__faq_geo,Q005_T__rep1,Q005_T,1,faq_geo,response,True,1,False,"[""DOC_005"", ""DOC_016"", ""DOC_015""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+129,Q014_A__rep2__full_geo,Q014_A__rep2,Q014_A,2,full_geo,response,True,1,False,"[""DOC_014"", ""DOC_004"", ""DOC_013""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+130,Q014_A__rep2__baseline,Q014_A__rep2,Q014_A,2,baseline,response,True,1,False,"[""DOC_014"", ""DOC_004"", ""DOC_013""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+131,Q014_A__rep2__faq_geo,Q014_A__rep2,Q014_A,2,faq_geo,response,True,1,False,"[""DOC_014"", ""DOC_004"", ""DOC_013""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,fail,"[""Quote not found after whitespace normalization""]",stop
+132,Q014_A__rep2__entity_structure_geo,Q014_A__rep2,Q014_A,2,entity_structure_geo,response,False,0,,[],[],0.0,0.0,0,0,0.0,,not_evaluable,"[""Response is not valid JSON""]",stop
+133,Q016_T__rep2__faq_geo,Q016_T__rep2,Q016_T,2,faq_geo,response,True,1,False,"[""DOC_016"", ""DOC_005"", ""DOC_015""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+134,Q016_T__rep2__baseline,Q016_T__rep2,Q016_T,2,baseline,response,True,1,False,"[""DOC_016"", ""DOC_005"", ""DOC_015""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+135,Q016_T__rep2__full_geo,Q016_T__rep2,Q016_T,2,full_geo,response,True,1,False,"[""DOC_016"", ""DOC_005"", ""DOC_015""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+136,Q016_T__rep2__entity_structure_geo,Q016_T__rep2,Q016_T,2,entity_structure_geo,response,True,1,False,"[""DOC_016"", ""DOC_005"", ""DOC_015""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+137,Q005_A__rep3__faq_geo,Q005_A__rep3,Q005_A,3,faq_geo,response,True,1,False,"[""DOC_005"", ""DOC_016"", ""DOC_018""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+138,Q005_A__rep3__entity_structure_geo,Q005_A__rep3,Q005_A,3,entity_structure_geo,response,False,0,,[],[],0.0,0.0,0,0,0.0,,not_evaluable,"[""Response is not valid JSON""]",stop
+139,Q005_A__rep3__baseline,Q005_A__rep3,Q005_A,3,baseline,response,False,0,,[],[],0.0,0.0,0,0,0.0,,not_evaluable,"[""Response is not valid JSON""]",stop
+140,Q005_A__rep3__full_geo,Q005_A__rep3,Q005_A,3,full_geo,response,False,0,,[],[],0.0,0.0,0,0,0.0,,not_evaluable,"[""Response is not valid JSON""]",stop
+141,Q010_L__rep3__baseline,Q010_L__rep3,Q010_L,3,baseline,response,True,1,False,"[""DOC_010"", ""DOC_009"", ""DOC_002""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+142,Q010_L__rep3__full_geo,Q010_L__rep3,Q010_L,3,full_geo,response,True,1,False,"[""DOC_010"", ""DOC_009"", ""DOC_007""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+143,Q010_L__rep3__entity_structure_geo,Q010_L__rep3,Q010_L,3,entity_structure_geo,response,False,0,,[],[],0.0,0.0,0,0,0.0,,not_evaluable,"[""Response is not valid JSON""]",stop
+144,Q010_L__rep3__faq_geo,Q010_L__rep3,Q010_L,3,faq_geo,response,True,1,False,"[""DOC_010"", ""DOC_009"", ""DOC_002""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+145,Q010_L__rep1__baseline,Q010_L__rep1,Q010_L,1,baseline,response,True,1,False,"[""DOC_010"", ""DOC_009"", ""DOC_007""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+146,Q010_L__rep1__faq_geo,Q010_L__rep1,Q010_L,1,faq_geo,response,True,1,False,"[""DOC_010"", ""DOC_009"", ""DOC_002""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+147,Q010_L__rep1__full_geo,Q010_L__rep1,Q010_L,1,full_geo,response,True,1,False,"[""DOC_010"", ""DOC_009"", ""DOC_007""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+148,Q010_L__rep1__entity_structure_geo,Q010_L__rep1,Q010_L,1,entity_structure_geo,response,True,1,False,"[""DOC_010"", ""DOC_009"", ""DOC_007""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+149,Q003_A__rep2__full_geo,Q003_A__rep2,Q003_A,2,full_geo,response,False,0,,[],[],0.0,0.0,0,0,0.0,,not_evaluable,"[""Response is not valid JSON""]",stop
+150,Q003_A__rep2__baseline,Q003_A__rep2,Q003_A,2,baseline,response,True,1,False,"[""DOC_003"", ""DOC_011"", ""DOC_017""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+151,Q003_A__rep2__faq_geo,Q003_A__rep2,Q003_A,2,faq_geo,response,True,1,False,"[""DOC_003"", ""DOC_017"", ""DOC_011""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,fail,"[""Quote not found after whitespace normalization""]",stop
+152,Q003_A__rep2__entity_structure_geo,Q003_A__rep2,Q003_A,2,entity_structure_geo,response,True,1,False,"[""DOC_003"", ""DOC_011"", ""DOC_017""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+153,Q011_A__rep1__entity_structure_geo,Q011_A__rep1,Q011_A,1,entity_structure_geo,response,False,0,,[],[],0.0,0.0,0,0,0.0,,not_evaluable,"[""Response is not valid JSON""]",stop
+154,Q011_A__rep1__baseline,Q011_A__rep1,Q011_A,1,baseline,response,True,1,False,"[""DOC_011"", ""DOC_003"", ""DOC_012""]","[3, 0, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+155,Q011_A__rep1__full_geo,Q011_A__rep1,Q011_A,1,full_geo,response,True,1,False,"[""DOC_011"", ""DOC_003"", ""DOC_012""]","[3, 0, 1]",1.0,1.0,1,1,1.0,1,fail,"[""Quote not found after whitespace normalization""]",stop
+156,Q011_A__rep1__faq_geo,Q011_A__rep1,Q011_A,1,faq_geo,response,True,1,False,"[""DOC_011"", ""DOC_003"", ""DOC_012""]","[3, 0, 1]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+157,Q007_T__rep3__baseline,Q007_T__rep3,Q007_T,3,baseline,response,True,1,False,"[""DOC_007"", ""DOC_001"", ""DOC_008""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+158,Q007_T__rep3__full_geo,Q007_T__rep3,Q007_T,3,full_geo,response,True,1,False,"[""DOC_007"", ""DOC_008"", ""DOC_001""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+159,Q007_T__rep3__entity_structure_geo,Q007_T__rep3,Q007_T,3,entity_structure_geo,response,True,1,False,"[""DOC_007"", ""DOC_008"", ""DOC_001""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+160,Q007_T__rep3__faq_geo,Q007_T__rep3,Q007_T,3,faq_geo,response,True,1,False,"[""DOC_007"", ""DOC_008"", ""DOC_001""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+161,Q009_A__rep3__entity_structure_geo,Q009_A__rep3,Q009_A,3,entity_structure_geo,response,True,1,False,"[""DOC_009"", ""DOC_010"", ""DOC_002""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+162,Q009_A__rep3__baseline,Q009_A__rep3,Q009_A,3,baseline,response,True,1,False,"[""DOC_009"", ""DOC_010"", ""DOC_002""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+163,Q009_A__rep3__faq_geo,Q009_A__rep3,Q009_A,3,faq_geo,response,True,1,False,"[""DOC_009"", ""DOC_010"", ""DOC_002""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+164,Q009_A__rep3__full_geo,Q009_A__rep3,Q009_A,3,full_geo,response,True,1,False,"[""DOC_009"", ""DOC_010"", ""DOC_002""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+165,Q016_A__rep2__entity_structure_geo,Q016_A__rep2,Q016_A,2,entity_structure_geo,response,True,1,False,"[""DOC_016"", ""DOC_011"", ""DOC_005""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+166,Q016_A__rep2__faq_geo,Q016_A__rep2,Q016_A,2,faq_geo,response,True,1,False,"[""DOC_016"", ""DOC_005"", ""DOC_011""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+167,Q016_A__rep2__baseline,Q016_A__rep2,Q016_A,2,baseline,response,True,1,False,"[""DOC_016"", ""DOC_005"", ""DOC_011""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+168,Q016_A__rep2__full_geo,Q016_A__rep2,Q016_A,2,full_geo,response,True,1,False,"[""DOC_016"", ""DOC_005"", ""DOC_011""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+169,Q018_L__rep2__baseline,Q018_L__rep2,Q018_L,2,baseline,response,True,1,False,"[""DOC_018"", ""DOC_017"", ""DOC_005""]","[3, 0, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+170,Q018_L__rep2__entity_structure_geo,Q018_L__rep2,Q018_L,2,entity_structure_geo,response,True,1,False,"[""DOC_018"", ""DOC_005"", ""DOC_017""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+171,Q018_L__rep2__full_geo,Q018_L__rep2,Q018_L,2,full_geo,response,True,1,False,"[""DOC_018"", ""DOC_005"", ""DOC_017""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+172,Q018_L__rep2__faq_geo,Q018_L__rep2,Q018_L,2,faq_geo,response,True,1,False,"[""DOC_018"", ""DOC_017"", ""DOC_005""]","[3, 0, 1]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+173,Q005_A__rep1__full_geo,Q005_A__rep1,Q005_A,1,full_geo,response,True,1,False,"[""DOC_005"", ""DOC_016"", ""DOC_018""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+174,Q005_A__rep1__faq_geo,Q005_A__rep1,Q005_A,1,faq_geo,response,True,1,False,"[""DOC_005"", ""DOC_018"", ""DOC_016""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+175,Q005_A__rep1__baseline,Q005_A__rep1,Q005_A,1,baseline,response,True,1,False,"[""DOC_005"", ""DOC_018"", ""DOC_016""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+176,Q005_A__rep1__entity_structure_geo,Q005_A__rep1,Q005_A,1,entity_structure_geo,response,True,1,False,"[""DOC_005"", ""DOC_018"", ""DOC_015""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+177,Q012_A__rep1__faq_geo,Q012_A__rep1,Q012_A,1,faq_geo,response,True,1,False,"[""DOC_012"", ""DOC_011"", ""DOC_003""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+178,Q012_A__rep1__baseline,Q012_A__rep1,Q012_A,1,baseline,response,True,1,False,"[""DOC_012"", ""DOC_011"", ""DOC_003""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,fail,"[""Quote not found after whitespace normalization""]",stop
+179,Q012_A__rep1__entity_structure_geo,Q012_A__rep1,Q012_A,1,entity_structure_geo,response,True,1,False,"[""DOC_012"", ""DOC_011"", ""DOC_003""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+180,Q012_A__rep1__full_geo,Q012_A__rep1,Q012_A,1,full_geo,response,True,1,False,"[""DOC_012"", ""DOC_011"", ""DOC_003""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,fail,"[""Quote not found after whitespace normalization""]",stop
+181,Q011_T__rep3__faq_geo,Q011_T__rep3,Q011_T,3,faq_geo,response,True,1,False,"[""DOC_011"", ""DOC_012"", ""DOC_003""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+182,Q011_T__rep3__full_geo,Q011_T__rep3,Q011_T,3,full_geo,response,True,1,False,"[""DOC_011"", ""DOC_003"", ""DOC_012""]","[3, 0, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+183,Q011_T__rep3__baseline,Q011_T__rep3,Q011_T,3,baseline,response,True,1,False,"[""DOC_011"", ""DOC_003"", ""DOC_012""]","[3, 0, 1]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+184,Q011_T__rep3__entity_structure_geo,Q011_T__rep3,Q011_T,3,entity_structure_geo,response,True,1,False,"[""DOC_011"", ""DOC_003"", ""DOC_012""]","[3, 0, 1]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+185,Q014_T__rep3__baseline,Q014_T__rep3,Q014_T,3,baseline,response,False,0,,[],[],0.0,0.0,0,0,0.0,,not_evaluable,"[""Response is not valid JSON""]",stop
+186,Q014_T__rep3__entity_structure_geo,Q014_T__rep3,Q014_T,3,entity_structure_geo,response,False,0,,[],[],0.0,0.0,0,0,0.0,,not_evaluable,"[""Response is not valid JSON""]",stop
+187,Q014_T__rep3__full_geo,Q014_T__rep3,Q014_T,3,full_geo,response,True,1,False,"[""DOC_014"", ""DOC_004"", ""DOC_013""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,fail,"[""Quote exceeds 50 words""]",stop
+188,Q014_T__rep3__faq_geo,Q014_T__rep3,Q014_T,3,faq_geo,response,False,0,,[],[],0.0,0.0,0,0,0.0,,not_evaluable,"[""Response is not valid JSON""]",stop
+189,Q002_L__rep1__entity_structure_geo,Q002_L__rep1,Q002_L,1,entity_structure_geo,response,True,1,False,"[""DOC_002"", ""DOC_007"", ""DOC_008""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+190,Q002_L__rep1__baseline,Q002_L__rep1,Q002_L,1,baseline,response,True,1,False,"[""DOC_002"", ""DOC_001"", ""DOC_007""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+191,Q002_L__rep1__faq_geo,Q002_L__rep1,Q002_L,1,faq_geo,response,True,1,False,"[""DOC_002"", ""DOC_010"", ""DOC_009""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+192,Q002_L__rep1__full_geo,Q002_L__rep1,Q002_L,1,full_geo,response,True,1,False,"[""DOC_002"", ""DOC_010"", ""DOC_009""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+193,Q002_T__rep3__baseline,Q002_T__rep3,Q002_T,3,baseline,response,True,1,False,"[""DOC_002"", ""DOC_010"", ""DOC_016""]","[3, 0, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+194,Q002_T__rep3__entity_structure_geo,Q002_T__rep3,Q002_T,3,entity_structure_geo,response,False,0,,[],[],0.0,0.0,0,0,0.0,,not_evaluable,"[""Response is not valid JSON""]",stop
+195,Q002_T__rep3__faq_geo,Q002_T__rep3,Q002_T,3,faq_geo,response,True,1,False,"[""DOC_002"", ""DOC_010"", ""DOC_016""]","[3, 0, 1]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+196,Q002_T__rep3__full_geo,Q002_T__rep3,Q002_T,3,full_geo,response,True,1,False,"[""DOC_002"", ""DOC_010"", ""DOC_009""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+197,Q014_A__rep1__full_geo,Q014_A__rep1,Q014_A,1,full_geo,response,True,1,False,"[""DOC_014"", ""DOC_004"", ""DOC_013""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+198,Q014_A__rep1__baseline,Q014_A__rep1,Q014_A,1,baseline,response,True,1,False,"[""DOC_014"", ""DOC_004"", ""DOC_013""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+199,Q014_A__rep1__entity_structure_geo,Q014_A__rep1,Q014_A,1,entity_structure_geo,response,True,1,False,"[""DOC_014"", ""DOC_004"", ""DOC_013""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+200,Q014_A__rep1__faq_geo,Q014_A__rep1,Q014_A,1,faq_geo,response,False,0,,[],[],0.0,0.0,0,0,0.0,,not_evaluable,"[""Response is not valid JSON""]",stop
+201,Q017_A__rep2__entity_structure_geo,Q017_A__rep2,Q017_A,2,entity_structure_geo,response,True,1,False,"[""DOC_017"", ""DOC_006"", ""DOC_018""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+202,Q017_A__rep2__faq_geo,Q017_A__rep2,Q017_A,2,faq_geo,response,True,1,False,"[""DOC_017"", ""DOC_006"", ""DOC_011""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+203,Q017_A__rep2__full_geo,Q017_A__rep2,Q017_A,2,full_geo,response,True,1,False,"[""DOC_017"", ""DOC_006"", ""DOC_003""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+204,Q017_A__rep2__baseline,Q017_A__rep2,Q017_A,2,baseline,response,True,1,False,"[""DOC_017"", ""DOC_006"", ""DOC_018""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+205,Q013_L__rep2__entity_structure_geo,Q013_L__rep2,Q013_L,2,entity_structure_geo,response,True,1,False,"[""DOC_013"", ""DOC_004"", ""DOC_005""]","[3, 2, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+206,Q013_L__rep2__baseline,Q013_L__rep2,Q013_L,2,baseline,response,True,1,False,"[""DOC_013"", ""DOC_004"", ""DOC_014""]","[3, 2, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+207,Q013_L__rep2__full_geo,Q013_L__rep2,Q013_L,2,full_geo,response,True,1,False,"[""DOC_013"", ""DOC_004"", ""DOC_005""]","[3, 2, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+208,Q013_L__rep2__faq_geo,Q013_L__rep2,Q013_L,2,faq_geo,response,True,1,False,"[""DOC_013"", ""DOC_004"", ""DOC_005""]","[3, 2, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+209,Q002_T__rep1__full_geo,Q002_T__rep1,Q002_T,1,full_geo,response,False,0,,[],[],0.0,0.0,0,0,0.0,,not_evaluable,"[""Response is not valid JSON""]",stop
+210,Q002_T__rep1__baseline,Q002_T__rep1,Q002_T,1,baseline,response,True,1,False,"[""DOC_002"", ""DOC_009"", ""DOC_010""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+211,Q002_T__rep1__faq_geo,Q002_T__rep1,Q002_T,1,faq_geo,response,True,1,False,"[""DOC_002"", ""DOC_009"", ""DOC_010""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+212,Q002_T__rep1__entity_structure_geo,Q002_T__rep1,Q002_T,1,entity_structure_geo,response,True,1,False,"[""DOC_002"", ""DOC_009"", ""DOC_010""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+213,Q008_A__rep2__entity_structure_geo,Q008_A__rep2,Q008_A,2,entity_structure_geo,response,True,1,False,"[""DOC_008"", ""DOC_007"", ""DOC_001""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+214,Q008_A__rep2__faq_geo,Q008_A__rep2,Q008_A,2,faq_geo,response,True,1,False,"[""DOC_008"", ""DOC_001"", ""DOC_007""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+215,Q008_A__rep2__full_geo,Q008_A__rep2,Q008_A,2,full_geo,response,True,1,False,"[""DOC_008"", ""DOC_007"", ""DOC_001""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+216,Q008_A__rep2__baseline,Q008_A__rep2,Q008_A,2,baseline,response,True,1,False,"[""DOC_008"", ""DOC_001"", ""DOC_007""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+217,Q007_L__rep2__full_geo,Q007_L__rep2,Q007_L,2,full_geo,response,False,0,,[],[],0.0,0.0,0,0,0.0,,not_evaluable,"[""Response is not valid JSON""]",stop
+218,Q007_L__rep2__baseline,Q007_L__rep2,Q007_L,2,baseline,response,True,1,False,"[""DOC_007"", ""DOC_008"", ""DOC_001""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+219,Q007_L__rep2__faq_geo,Q007_L__rep2,Q007_L,2,faq_geo,response,True,1,False,"[""DOC_007"", ""DOC_008"", ""DOC_001""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+220,Q007_L__rep2__entity_structure_geo,Q007_L__rep2,Q007_L,2,entity_structure_geo,response,True,1,False,"[""DOC_007"", ""DOC_001"", ""DOC_008""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+221,Q015_T__rep1__faq_geo,Q015_T__rep1,Q015_T,1,faq_geo,response,True,1,False,"[""DOC_015"", ""DOC_005"", ""DOC_016""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+222,Q015_T__rep1__baseline,Q015_T__rep1,Q015_T,1,baseline,response,True,1,False,"[""DOC_015"", ""DOC_005"", ""DOC_016""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+223,Q015_T__rep1__entity_structure_geo,Q015_T__rep1,Q015_T,1,entity_structure_geo,response,True,1,False,"[""DOC_015"", ""DOC_005"", ""DOC_016""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+224,Q015_T__rep1__full_geo,Q015_T__rep1,Q015_T,1,full_geo,response,True,1,False,"[""DOC_015"", ""DOC_005"", ""DOC_016""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+225,Q002_L__rep2__full_geo,Q002_L__rep2,Q002_L,2,full_geo,response,True,1,False,"[""DOC_002"", ""DOC_010"", ""DOC_001""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+226,Q002_L__rep2__entity_structure_geo,Q002_L__rep2,Q002_L,2,entity_structure_geo,response,True,1,False,"[""DOC_002"", ""DOC_010"", ""DOC_007""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+227,Q002_L__rep2__faq_geo,Q002_L__rep2,Q002_L,2,faq_geo,response,True,1,False,"[""DOC_002"", ""DOC_010"", ""DOC_009""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+228,Q002_L__rep2__baseline,Q002_L__rep2,Q002_L,2,baseline,response,True,1,False,"[""DOC_002"", ""DOC_016"", ""DOC_010""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+229,Q010_T__rep3__entity_structure_geo,Q010_T__rep3,Q010_T,3,entity_structure_geo,response,True,1,False,"[""DOC_010"", ""DOC_009"", ""DOC_007""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+230,Q010_T__rep3__full_geo,Q010_T__rep3,Q010_T,3,full_geo,response,True,1,False,"[""DOC_010"", ""DOC_009"", ""DOC_007""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+231,Q010_T__rep3__baseline,Q010_T__rep3,Q010_T,3,baseline,response,True,1,False,"[""DOC_010"", ""DOC_007"", ""DOC_009""]","[3, 0, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+232,Q010_T__rep3__faq_geo,Q010_T__rep3,Q010_T,3,faq_geo,response,True,1,False,"[""DOC_010"", ""DOC_007"", ""DOC_009""]","[3, 0, 1]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+233,Q001_A__rep3__entity_structure_geo,Q001_A__rep3,Q001_A,3,entity_structure_geo,response,True,1,False,"[""DOC_001"", ""DOC_007"", ""DOC_008""]","[3, 2, 0]",1.0,1.0,1,1,1.0,1,fail,"[""Quote not found after whitespace normalization""]",stop
+234,Q001_A__rep3__faq_geo,Q001_A__rep3,Q001_A,3,faq_geo,response,False,0,,[],[],0.0,0.0,0,0,0.0,,not_evaluable,"[""Response is not valid JSON""]",stop
+235,Q001_A__rep3__baseline,Q001_A__rep3,Q001_A,3,baseline,response,True,1,False,"[""DOC_001"", ""DOC_007"", ""DOC_008""]","[3, 2, 0]",1.0,1.0,1,1,1.0,1,fail,"[""Quote not found after whitespace normalization""]",stop
+236,Q001_A__rep3__full_geo,Q001_A__rep3,Q001_A,3,full_geo,response,True,1,False,"[""DOC_001"", ""DOC_007"", ""DOC_008""]","[3, 2, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+237,Q012_T__rep1__faq_geo,Q012_T__rep1,Q012_T,1,faq_geo,response,True,1,False,"[""DOC_012"", ""DOC_011"", ""DOC_003""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+238,Q012_T__rep1__full_geo,Q012_T__rep1,Q012_T,1,full_geo,response,True,1,False,"[""DOC_012"", ""DOC_011"", ""DOC_003""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+239,Q012_T__rep1__entity_structure_geo,Q012_T__rep1,Q012_T,1,entity_structure_geo,response,True,1,False,"[""DOC_012"", ""DOC_011"", ""DOC_003""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+240,Q012_T__rep1__baseline,Q012_T__rep1,Q012_T,1,baseline,response,True,1,False,"[""DOC_012"", ""DOC_011"", ""DOC_003""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+241,Q003_L__rep1__entity_structure_geo,Q003_L__rep1,Q003_L,1,entity_structure_geo,response,False,0,,[],[],0.0,0.0,0,0,0.0,,not_evaluable,"[""Response is not valid JSON""]",stop
+242,Q003_L__rep1__full_geo,Q003_L__rep1,Q003_L,1,full_geo,response,True,1,False,"[""DOC_003"", ""DOC_011"", ""DOC_017""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+243,Q003_L__rep1__faq_geo,Q003_L__rep1,Q003_L,1,faq_geo,response,True,1,False,"[""DOC_003"", ""DOC_017"", ""DOC_011""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,fail,"[""First-ranked ID not present in answer"", ""Quote not found after whitespace normalization""]",stop
+244,Q003_L__rep1__baseline,Q003_L__rep1,Q003_L,1,baseline,response,True,1,False,"[""DOC_003"", ""DOC_017"", ""DOC_011""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,fail,"[""Quote not found after whitespace normalization""]",stop
+245,Q001_L__rep1__faq_geo,Q001_L__rep1,Q001_L,1,faq_geo,response,True,1,False,"[""DOC_001"", ""DOC_007"", ""DOC_008""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+246,Q001_L__rep1__entity_structure_geo,Q001_L__rep1,Q001_L,1,entity_structure_geo,response,True,1,False,"[""DOC_001"", ""DOC_007"", ""DOC_008""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,fail,"[""Quote not found after whitespace normalization""]",stop
+247,Q001_L__rep1__baseline,Q001_L__rep1,Q001_L,1,baseline,response,True,1,False,"[""DOC_001"", ""DOC_007"", ""DOC_008""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,fail,"[""Quote not found after whitespace normalization""]",stop
+248,Q001_L__rep1__full_geo,Q001_L__rep1,Q001_L,1,full_geo,response,True,1,False,"[""DOC_001"", ""DOC_007"", ""DOC_008""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+249,Q016_L__rep1__faq_geo,Q016_L__rep1,Q016_L,1,faq_geo,response,True,1,False,"[""DOC_016"", ""DOC_005"", ""DOC_015""]","[3, 2, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+250,Q016_L__rep1__entity_structure_geo,Q016_L__rep1,Q016_L,1,entity_structure_geo,response,True,1,False,"[""DOC_016"", ""DOC_005"", ""DOC_002""]","[3, 2, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+251,Q016_L__rep1__full_geo,Q016_L__rep1,Q016_L,1,full_geo,response,False,0,,[],[],0.0,0.0,0,0,0.0,,not_evaluable,"[""Response is not valid JSON""]",stop
+252,Q016_L__rep1__baseline,Q016_L__rep1,Q016_L,1,baseline,response,True,1,False,"[""DOC_016"", ""DOC_005"", ""DOC_011""]","[3, 2, 1]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+253,Q001_T__rep3__baseline,Q001_T__rep3,Q001_T,3,baseline,response,True,1,False,"[""DOC_001"", ""DOC_007"", ""DOC_008""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+254,Q001_T__rep3__entity_structure_geo,Q001_T__rep3,Q001_T,3,entity_structure_geo,response,True,1,False,"[""DOC_001"", ""DOC_007"", ""DOC_008""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+255,Q001_T__rep3__full_geo,Q001_T__rep3,Q001_T,3,full_geo,response,False,0,,[],[],0.0,0.0,0,0,0.0,,not_evaluable,"[""Response is not valid JSON""]",stop
+256,Q001_T__rep3__faq_geo,Q001_T__rep3,Q001_T,3,faq_geo,response,True,1,False,"[""DOC_001"", ""DOC_007"", ""DOC_008""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,fail,"[""Quote not found after whitespace normalization""]",stop
+257,Q008_L__rep1__baseline,Q008_L__rep1,Q008_L,1,baseline,response,True,1,False,"[""DOC_008"", ""DOC_007"", ""DOC_010""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+258,Q008_L__rep1__full_geo,Q008_L__rep1,Q008_L,1,full_geo,response,True,1,False,"[""DOC_008"", ""DOC_007"", ""DOC_001""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+259,Q008_L__rep1__faq_geo,Q008_L__rep1,Q008_L,1,faq_geo,response,True,1,False,"[""DOC_008"", ""DOC_007"", ""DOC_001""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+260,Q008_L__rep1__entity_structure_geo,Q008_L__rep1,Q008_L,1,entity_structure_geo,response,True,1,False,"[""DOC_008"", ""DOC_007"", ""DOC_010""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+261,Q018_A__rep3__entity_structure_geo,Q018_A__rep3,Q018_A,3,entity_structure_geo,response,True,1,False,"[""DOC_018"", ""DOC_006"", ""DOC_005""]","[3, 0, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+262,Q018_A__rep3__full_geo,Q018_A__rep3,Q018_A,3,full_geo,response,True,1,False,"[""DOC_018"", ""DOC_006"", ""DOC_017""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+263,Q018_A__rep3__faq_geo,Q018_A__rep3,Q018_A,3,faq_geo,response,True,1,False,"[""DOC_018"", ""DOC_017"", ""DOC_006""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+264,Q018_A__rep3__baseline,Q018_A__rep3,Q018_A,3,baseline,response,True,1,False,"[""DOC_018"", ""DOC_017"", ""DOC_005""]","[3, 0, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+265,Q001_L__rep2__baseline,Q001_L__rep2,Q001_L,2,baseline,response,True,1,False,"[""DOC_001"", ""DOC_007"", ""DOC_008""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,fail,"[""Quote not found after whitespace normalization""]",stop
+266,Q001_L__rep2__entity_structure_geo,Q001_L__rep2,Q001_L,2,entity_structure_geo,response,True,1,False,"[""DOC_001"", ""DOC_007"", ""DOC_008""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+267,Q001_L__rep2__faq_geo,Q001_L__rep2,Q001_L,2,faq_geo,response,True,1,False,"[""DOC_001"", ""DOC_007"", ""DOC_008""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,fail,"[""Quote not found after whitespace normalization""]",stop
+268,Q001_L__rep2__full_geo,Q001_L__rep2,Q001_L,2,full_geo,response,True,1,False,"[""DOC_001"", ""DOC_007"", ""DOC_008""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+269,Q014_A__rep3__full_geo,Q014_A__rep3,Q014_A,3,full_geo,response,True,1,False,"[""DOC_014"", ""DOC_004"", ""DOC_013""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+270,Q014_A__rep3__faq_geo,Q014_A__rep3,Q014_A,3,faq_geo,response,True,1,False,"[""DOC_014"", ""DOC_004"", ""DOC_007""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+271,Q014_A__rep3__baseline,Q014_A__rep3,Q014_A,3,baseline,response,False,0,,[],[],0.0,0.0,0,0,0.0,,not_evaluable,"[""Response is not valid JSON""]",stop
+272,Q014_A__rep3__entity_structure_geo,Q014_A__rep3,Q014_A,3,entity_structure_geo,response,True,1,False,"[""DOC_014"", ""DOC_004"", ""DOC_013""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+273,Q006_L__rep1__baseline,Q006_L__rep1,Q006_L,1,baseline,response,True,1,False,"[""DOC_006"", ""DOC_001"", ""DOC_017""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+274,Q006_L__rep1__full_geo,Q006_L__rep1,Q006_L,1,full_geo,response,True,1,False,"[""DOC_006"", ""DOC_001"", ""DOC_007""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+275,Q006_L__rep1__faq_geo,Q006_L__rep1,Q006_L,1,faq_geo,response,True,1,False,"[""DOC_006"", ""DOC_001"", ""DOC_007""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+276,Q006_L__rep1__entity_structure_geo,Q006_L__rep1,Q006_L,1,entity_structure_geo,response,True,1,False,"[""DOC_006"", ""DOC_001"", ""DOC_007""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,fail,"[""First-ranked ID not present in answer"", ""Quote not found after whitespace normalization""]",stop
+277,Q007_T__rep2__full_geo,Q007_T__rep2,Q007_T,2,full_geo,response,True,1,False,"[""DOC_007"", ""DOC_008"", ""DOC_001""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+278,Q007_T__rep2__baseline,Q007_T__rep2,Q007_T,2,baseline,response,True,1,False,"[""DOC_007"", ""DOC_008"", ""DOC_001""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+279,Q007_T__rep2__entity_structure_geo,Q007_T__rep2,Q007_T,2,entity_structure_geo,response,True,1,False,"[""DOC_007"", ""DOC_001"", ""DOC_008""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+280,Q007_T__rep2__faq_geo,Q007_T__rep2,Q007_T,2,faq_geo,response,True,1,False,"[""DOC_007"", ""DOC_001"", ""DOC_008""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+281,Q008_T__rep2__entity_structure_geo,Q008_T__rep2,Q008_T,2,entity_structure_geo,response,True,1,False,"[""DOC_008"", ""DOC_001"", ""DOC_007""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+282,Q008_T__rep2__full_geo,Q008_T__rep2,Q008_T,2,full_geo,response,False,0,,[],[],0.0,0.0,0,0,0.0,,not_evaluable,"[""Response is not valid JSON""]",stop
+283,Q008_T__rep2__baseline,Q008_T__rep2,Q008_T,2,baseline,response,True,1,False,"[""DOC_008"", ""DOC_001"", ""DOC_007""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+284,Q008_T__rep2__faq_geo,Q008_T__rep2,Q008_T,2,faq_geo,response,True,1,False,"[""DOC_008"", ""DOC_010"", ""DOC_007""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+285,Q012_A__rep3__entity_structure_geo,Q012_A__rep3,Q012_A,3,entity_structure_geo,response,True,1,False,"[""DOC_012"", ""DOC_011"", ""DOC_003""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,fail,"[""Quote not found after whitespace normalization""]",stop
+286,Q012_A__rep3__full_geo,Q012_A__rep3,Q012_A,3,full_geo,response,True,1,False,"[""DOC_012"", ""DOC_011"", ""DOC_003""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,fail,"[""Quote not found after whitespace normalization""]",stop
+287,Q012_A__rep3__faq_geo,Q012_A__rep3,Q012_A,3,faq_geo,response,True,1,False,"[""DOC_012"", ""DOC_011"", ""DOC_003""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+288,Q012_A__rep3__baseline,Q012_A__rep3,Q012_A,3,baseline,response,True,1,False,"[""DOC_012"", ""DOC_011"", ""DOC_003""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+289,Q001_T__rep2__full_geo,Q001_T__rep2,Q001_T,2,full_geo,response,True,1,False,"[""DOC_001"", ""DOC_007"", ""DOC_008""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+290,Q001_T__rep2__entity_structure_geo,Q001_T__rep2,Q001_T,2,entity_structure_geo,response,True,1,False,"[""DOC_001"", ""DOC_007"", ""DOC_008""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+291,Q001_T__rep2__faq_geo,Q001_T__rep2,Q001_T,2,faq_geo,response,True,1,False,"[""DOC_001"", ""DOC_007"", ""DOC_008""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+292,Q001_T__rep2__baseline,Q001_T__rep2,Q001_T,2,baseline,response,False,0,,[],[],0.0,0.0,0,0,0.0,,not_evaluable,"[""Response is not valid JSON""]",stop
+293,Q011_T__rep2__entity_structure_geo,Q011_T__rep2,Q011_T,2,entity_structure_geo,response,False,0,,[],[],0.0,0.0,0,0,0.0,,not_evaluable,"[""Response is not valid JSON""]",stop
+294,Q011_T__rep2__baseline,Q011_T__rep2,Q011_T,2,baseline,response,True,1,False,"[""DOC_011"", ""DOC_012"", ""DOC_003""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+295,Q011_T__rep2__full_geo,Q011_T__rep2,Q011_T,2,full_geo,response,True,1,False,"[""DOC_011"", ""DOC_012"", ""DOC_003""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+296,Q011_T__rep2__faq_geo,Q011_T__rep2,Q011_T,2,faq_geo,response,True,1,False,"[""DOC_011"", ""DOC_012"", ""DOC_003""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+297,Q018_T__rep2__faq_geo,Q018_T__rep2,Q018_T,2,faq_geo,response,True,1,False,"[""DOC_018"", ""DOC_006"", ""DOC_017""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,fail,"[""Quote exceeds 50 words""]",stop
+298,Q018_T__rep2__baseline,Q018_T__rep2,Q018_T,2,baseline,response,True,1,False,"[""DOC_018"", ""DOC_006"", ""DOC_017""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+299,Q018_T__rep2__full_geo,Q018_T__rep2,Q018_T,2,full_geo,response,True,1,False,"[""DOC_018"", ""DOC_005"", ""DOC_016""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+300,Q018_T__rep2__entity_structure_geo,Q018_T__rep2,Q018_T,2,entity_structure_geo,response,True,1,False,"[""DOC_018"", ""DOC_017"", ""DOC_006""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+301,Q013_A__rep3__entity_structure_geo,Q013_A__rep3,Q013_A,3,entity_structure_geo,response,True,1,False,"[""DOC_013"", ""DOC_004"", ""DOC_009""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+302,Q013_A__rep3__full_geo,Q013_A__rep3,Q013_A,3,full_geo,response,True,1,False,"[""DOC_013"", ""DOC_004"", ""DOC_014""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+303,Q013_A__rep3__faq_geo,Q013_A__rep3,Q013_A,3,faq_geo,response,True,1,False,"[""DOC_013"", ""DOC_004"", ""DOC_005""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+304,Q013_A__rep3__baseline,Q013_A__rep3,Q013_A,3,baseline,response,True,1,False,"[""DOC_013"", ""DOC_004"", ""DOC_014""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+305,Q004_A__rep3__faq_geo,Q004_A__rep3,Q004_A,3,faq_geo,response,True,1,False,"[""DOC_004"", ""DOC_013"", ""DOC_005""]","[3, 2, 1]",1.0,1.0,1,1,1.0,1,fail,"[""Quote exceeds 50 words"", ""Quote not found after whitespace normalization""]",stop
+306,Q004_A__rep3__baseline,Q004_A__rep3,Q004_A,3,baseline,response,True,1,False,"[""DOC_004"", ""DOC_013"", ""DOC_005""]","[3, 2, 1]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+307,Q004_A__rep3__full_geo,Q004_A__rep3,Q004_A,3,full_geo,response,True,1,False,"[""DOC_004"", ""DOC_013"", ""DOC_005""]","[3, 2, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+308,Q004_A__rep3__entity_structure_geo,Q004_A__rep3,Q004_A,3,entity_structure_geo,response,True,1,False,"[""DOC_004"", ""DOC_013"", ""DOC_005""]","[3, 2, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+309,Q015_A__rep3__full_geo,Q015_A__rep3,Q015_A,3,full_geo,response,True,1,False,"[""DOC_015"", ""DOC_016"", ""DOC_005""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+310,Q015_A__rep3__entity_structure_geo,Q015_A__rep3,Q015_A,3,entity_structure_geo,response,True,1,False,"[""DOC_015"", ""DOC_005"", ""DOC_016""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+311,Q015_A__rep3__faq_geo,Q015_A__rep3,Q015_A,3,faq_geo,response,True,1,False,"[""DOC_015"", ""DOC_005"", ""DOC_016""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+312,Q015_A__rep3__baseline,Q015_A__rep3,Q015_A,3,baseline,response,True,1,False,"[""DOC_015"", ""DOC_005"", ""DOC_016""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+313,Q005_L__rep3__faq_geo,Q005_L__rep3,Q005_L,3,faq_geo,response,True,1,False,"[""DOC_005"", ""DOC_016"", ""DOC_015""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+314,Q005_L__rep3__entity_structure_geo,Q005_L__rep3,Q005_L,3,entity_structure_geo,response,True,1,False,"[""DOC_005"", ""DOC_016"", ""DOC_015""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+315,Q005_L__rep3__baseline,Q005_L__rep3,Q005_L,3,baseline,response,True,1,False,"[""DOC_005"", ""DOC_016"", ""DOC_015""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+316,Q005_L__rep3__full_geo,Q005_L__rep3,Q005_L,3,full_geo,response,False,0,,[],[],0.0,0.0,0,0,0.0,,not_evaluable,"[""Response is not valid JSON""]",stop
+317,Q014_L__rep3__full_geo,Q014_L__rep3,Q014_L,3,full_geo,response,True,1,False,"[""DOC_014"", ""DOC_004"", ""DOC_013""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+318,Q014_L__rep3__baseline,Q014_L__rep3,Q014_L,3,baseline,response,True,1,False,"[""DOC_014"", ""DOC_004"", ""DOC_013""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+319,Q014_L__rep3__entity_structure_geo,Q014_L__rep3,Q014_L,3,entity_structure_geo,response,False,0,,[],[],0.0,0.0,0,0,0.0,,not_evaluable,"[""Response is not valid JSON""]",stop
+320,Q014_L__rep3__faq_geo,Q014_L__rep3,Q014_L,3,faq_geo,response,True,1,False,"[""DOC_014"", ""DOC_004"", ""DOC_013""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+321,Q006_A__rep1__faq_geo,Q006_A__rep1,Q006_A,1,faq_geo,response,True,1,False,"[""DOC_006"", ""DOC_017"", ""DOC_003""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,fail,"[""Quote not found after whitespace normalization"", ""Quote not found after whitespace normalization""]",stop
+322,Q006_A__rep1__full_geo,Q006_A__rep1,Q006_A,1,full_geo,response,True,1,False,"[""DOC_006"", ""DOC_017"", ""DOC_018""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,fail,"[""Quote not found after whitespace normalization""]",stop
+323,Q006_A__rep1__baseline,Q006_A__rep1,Q006_A,1,baseline,response,True,1,False,"[""DOC_006"", ""DOC_017"", ""DOC_018""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,fail,"[""Quote not found after whitespace normalization""]",stop
+324,Q006_A__rep1__entity_structure_geo,Q006_A__rep1,Q006_A,1,entity_structure_geo,response,True,1,False,"[""DOC_006"", ""DOC_017"", ""DOC_018""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,fail,"[""First-ranked ID not present in answer"", ""Quote not found after whitespace normalization""]",stop
+325,Q009_T__rep1__baseline,Q009_T__rep1,Q009_T,1,baseline,response,True,1,False,"[""DOC_009"", ""DOC_010"", ""DOC_002""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+326,Q009_T__rep1__faq_geo,Q009_T__rep1,Q009_T,1,faq_geo,response,True,1,False,"[""DOC_009"", ""DOC_010"", ""DOC_007""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+327,Q009_T__rep1__full_geo,Q009_T__rep1,Q009_T,1,full_geo,response,True,1,False,"[""DOC_009"", ""DOC_010"", ""DOC_002""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+328,Q009_T__rep1__entity_structure_geo,Q009_T__rep1,Q009_T,1,entity_structure_geo,response,True,1,False,"[""DOC_009"", ""DOC_010"", ""DOC_007""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+329,Q017_L__rep1__full_geo,Q017_L__rep1,Q017_L,1,full_geo,response,True,1,False,"[""DOC_017"", ""DOC_003"", ""DOC_011""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+330,Q017_L__rep1__faq_geo,Q017_L__rep1,Q017_L,1,faq_geo,response,True,1,False,"[""DOC_017"", ""DOC_003"", ""DOC_006""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+331,Q017_L__rep1__baseline,Q017_L__rep1,Q017_L,1,baseline,response,False,0,,[],[],0.0,0.0,0,0,0.0,,not_evaluable,"[""Response is not valid JSON""]",stop
+332,Q017_L__rep1__entity_structure_geo,Q017_L__rep1,Q017_L,1,entity_structure_geo,response,False,0,,[],[],0.0,0.0,0,0,0.0,,not_evaluable,"[""Response is not valid JSON""]",stop
+333,Q018_L__rep1__entity_structure_geo,Q018_L__rep1,Q018_L,1,entity_structure_geo,response,True,1,False,"[""DOC_018"", ""DOC_005"", ""DOC_017""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,fail,"[""Quote exceeds 50 words"", ""Quote not found after whitespace normalization""]",stop
+334,Q018_L__rep1__faq_geo,Q018_L__rep1,Q018_L,1,faq_geo,response,True,1,False,"[""DOC_018"", ""DOC_005"", ""DOC_017""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,fail,"[""Quote exceeds 50 words""]",stop
+335,Q018_L__rep1__full_geo,Q018_L__rep1,Q018_L,1,full_geo,response,True,1,False,"[""DOC_018"", ""DOC_005"", ""DOC_016""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+336,Q018_L__rep1__baseline,Q018_L__rep1,Q018_L,1,baseline,response,True,1,False,"[""DOC_018"", ""DOC_005"", ""DOC_017""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+337,Q004_T__rep2__baseline,Q004_T__rep2,Q004_T,2,baseline,response,True,1,False,"[""DOC_004"", ""DOC_013"", ""DOC_014""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+338,Q004_T__rep2__entity_structure_geo,Q004_T__rep2,Q004_T,2,entity_structure_geo,response,True,1,False,"[""DOC_004"", ""DOC_013"", ""DOC_005""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+339,Q004_T__rep2__full_geo,Q004_T__rep2,Q004_T,2,full_geo,response,True,1,False,"[""DOC_004"", ""DOC_013"", ""DOC_014""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+340,Q004_T__rep2__faq_geo,Q004_T__rep2,Q004_T,2,faq_geo,response,True,1,False,"[""DOC_004"", ""DOC_013"", ""DOC_005""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+341,Q016_L__rep3__baseline,Q016_L__rep3,Q016_L,3,baseline,response,True,1,False,"[""DOC_016"", ""DOC_005"", ""DOC_015""]","[3, 2, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+342,Q016_L__rep3__full_geo,Q016_L__rep3,Q016_L,3,full_geo,response,True,1,False,"[""DOC_016"", ""DOC_005"", ""DOC_011""]","[3, 2, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+343,Q016_L__rep3__entity_structure_geo,Q016_L__rep3,Q016_L,3,entity_structure_geo,response,True,1,False,"[""DOC_016"", ""DOC_005"", ""DOC_015""]","[3, 2, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+344,Q016_L__rep3__faq_geo,Q016_L__rep3,Q016_L,3,faq_geo,response,True,1,False,"[""DOC_016"", ""DOC_005"", ""DOC_011""]","[3, 2, 1]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+345,Q015_A__rep2__faq_geo,Q015_A__rep2,Q015_A,2,faq_geo,response,True,1,False,"[""DOC_015"", ""DOC_005"", ""DOC_016""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+346,Q015_A__rep2__baseline,Q015_A__rep2,Q015_A,2,baseline,response,True,1,False,"[""DOC_015"", ""DOC_005"", ""DOC_016""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+347,Q015_A__rep2__entity_structure_geo,Q015_A__rep2,Q015_A,2,entity_structure_geo,response,True,1,False,"[""DOC_015"", ""DOC_005"", ""DOC_016""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+348,Q015_A__rep2__full_geo,Q015_A__rep2,Q015_A,2,full_geo,response,False,0,,[],[],0.0,0.0,0,0,0.0,,not_evaluable,"[""Response is not valid JSON""]",stop
+349,Q011_T__rep1__full_geo,Q011_T__rep1,Q011_T,1,full_geo,response,True,1,False,"[""DOC_011"", ""DOC_012"", ""DOC_003""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+350,Q011_T__rep1__baseline,Q011_T__rep1,Q011_T,1,baseline,response,True,1,False,"[""DOC_011"", ""DOC_012"", ""DOC_003""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+351,Q011_T__rep1__entity_structure_geo,Q011_T__rep1,Q011_T,1,entity_structure_geo,response,True,1,False,"[""DOC_011"", ""DOC_012"", ""DOC_003""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+352,Q011_T__rep1__faq_geo,Q011_T__rep1,Q011_T,1,faq_geo,response,True,1,False,"[""DOC_011"", ""DOC_012"", ""DOC_003""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+353,Q018_T__rep1__baseline,Q018_T__rep1,Q018_T,1,baseline,response,True,1,False,"[""DOC_018"", ""DOC_017"", ""DOC_006""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+354,Q018_T__rep1__full_geo,Q018_T__rep1,Q018_T,1,full_geo,response,True,1,False,"[""DOC_018"", ""DOC_017"", ""DOC_006""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+355,Q018_T__rep1__faq_geo,Q018_T__rep1,Q018_T,1,faq_geo,response,True,1,False,"[""DOC_018"", ""DOC_017"", ""DOC_006""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+356,Q018_T__rep1__entity_structure_geo,Q018_T__rep1,Q018_T,1,entity_structure_geo,response,True,1,False,"[""DOC_018"", ""DOC_017"", ""DOC_006""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+357,Q008_T__rep3__entity_structure_geo,Q008_T__rep3,Q008_T,3,entity_structure_geo,response,True,1,False,"[""DOC_008"", ""DOC_001"", ""DOC_007""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+358,Q008_T__rep3__full_geo,Q008_T__rep3,Q008_T,3,full_geo,response,True,1,False,"[""DOC_008"", ""DOC_007"", ""DOC_001""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+359,Q008_T__rep3__faq_geo,Q008_T__rep3,Q008_T,3,faq_geo,response,True,1,False,"[""DOC_008"", ""DOC_001"", ""DOC_007""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+360,Q008_T__rep3__baseline,Q008_T__rep3,Q008_T,3,baseline,response,True,1,False,"[""DOC_008"", ""DOC_001"", ""DOC_007""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+361,Q013_A__rep1__full_geo,Q013_A__rep1,Q013_A,1,full_geo,response,True,1,False,"[""DOC_013"", ""DOC_004"", ""DOC_014""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+362,Q013_A__rep1__faq_geo,Q013_A__rep1,Q013_A,1,faq_geo,response,True,1,False,"[""DOC_013"", ""DOC_004"", ""DOC_014""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+363,Q013_A__rep1__entity_structure_geo,Q013_A__rep1,Q013_A,1,entity_structure_geo,response,True,1,False,"[""DOC_013"", ""DOC_004"", ""DOC_005""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+364,Q013_A__rep1__baseline,Q013_A__rep1,Q013_A,1,baseline,response,True,1,False,"[""DOC_013"", ""DOC_004"", ""DOC_003""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+365,Q002_A__rep2__entity_structure_geo,Q002_A__rep2,Q002_A,2,entity_structure_geo,response,True,1,False,"[""DOC_002"", ""DOC_010"", ""DOC_009""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+366,Q002_A__rep2__full_geo,Q002_A__rep2,Q002_A,2,full_geo,response,True,1,False,"[""DOC_002"", ""DOC_010"", ""DOC_009""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+367,Q002_A__rep2__faq_geo,Q002_A__rep2,Q002_A,2,faq_geo,response,True,1,False,"[""DOC_002"", ""DOC_010"", ""DOC_009""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+368,Q002_A__rep2__baseline,Q002_A__rep2,Q002_A,2,baseline,response,False,0,,[],[],0.0,0.0,0,0,0.0,,not_evaluable,"[""Response is not valid JSON""]",stop
+369,Q018_A__rep2__baseline,Q018_A__rep2,Q018_A,2,baseline,response,True,1,False,"[""DOC_018"", ""DOC_017"", ""DOC_003""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+370,Q018_A__rep2__faq_geo,Q018_A__rep2,Q018_A,2,faq_geo,response,True,1,False,"[""DOC_018"", ""DOC_017"", ""DOC_003""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+371,Q018_A__rep2__entity_structure_geo,Q018_A__rep2,Q018_A,2,entity_structure_geo,response,True,1,False,"[""DOC_018"", ""DOC_017"", ""DOC_006""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+372,Q018_A__rep2__full_geo,Q018_A__rep2,Q018_A,2,full_geo,response,True,1,False,"[""DOC_018"", ""DOC_017"", ""DOC_006""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+373,Q001_T__rep1__faq_geo,Q001_T__rep1,Q001_T,1,faq_geo,response,True,1,False,"[""DOC_001"", ""DOC_007"", ""DOC_008""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+374,Q001_T__rep1__full_geo,Q001_T__rep1,Q001_T,1,full_geo,response,True,1,False,"[""DOC_001"", ""DOC_007"", ""DOC_008""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+375,Q001_T__rep1__entity_structure_geo,Q001_T__rep1,Q001_T,1,entity_structure_geo,response,False,0,,[],[],0.0,0.0,0,0,0.0,,not_evaluable,"[""Response is not valid JSON""]",stop
+376,Q001_T__rep1__baseline,Q001_T__rep1,Q001_T,1,baseline,response,True,1,False,"[""DOC_001"", ""DOC_007"", ""DOC_008""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+377,Q010_T__rep2__entity_structure_geo,Q010_T__rep2,Q010_T,2,entity_structure_geo,response,False,0,,[],[],0.0,0.0,0,0,0.0,,not_evaluable,"[""Response is not valid JSON""]",stop
+378,Q010_T__rep2__full_geo,Q010_T__rep2,Q010_T,2,full_geo,response,False,0,,[],[],0.0,0.0,0,0,0.0,,not_evaluable,"[""Response is not valid JSON""]",stop
+379,Q010_T__rep2__baseline,Q010_T__rep2,Q010_T,2,baseline,response,True,1,False,"[""DOC_010"", ""DOC_009"", ""DOC_002""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+380,Q010_T__rep2__faq_geo,Q010_T__rep2,Q010_T,2,faq_geo,response,False,0,,[],[],0.0,0.0,0,0,0.0,,not_evaluable,"[""Response is not valid JSON""]",stop
+381,Q003_T__rep3__full_geo,Q003_T__rep3,Q003_T,3,full_geo,response,True,1,False,"[""DOC_003"", ""DOC_011"", ""DOC_017""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+382,Q003_T__rep3__baseline,Q003_T__rep3,Q003_T,3,baseline,response,True,1,False,"[""DOC_003"", ""DOC_013"", ""DOC_011""]","[3, 0, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+383,Q003_T__rep3__faq_geo,Q003_T__rep3,Q003_T,3,faq_geo,response,True,1,False,"[""DOC_003"", ""DOC_011"", ""DOC_017""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+384,Q003_T__rep3__entity_structure_geo,Q003_T__rep3,Q003_T,3,entity_structure_geo,response,True,1,False,"[""DOC_003"", ""DOC_011"", ""DOC_017""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+385,Q001_A__rep2__baseline,Q001_A__rep2,Q001_A,2,baseline,response,True,1,False,"[""DOC_001"", ""DOC_007"", ""DOC_009""]","[3, 2, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+386,Q001_A__rep2__full_geo,Q001_A__rep2,Q001_A,2,full_geo,response,True,1,False,"[""DOC_001"", ""DOC_007"", ""DOC_008""]","[3, 2, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+387,Q001_A__rep2__entity_structure_geo,Q001_A__rep2,Q001_A,2,entity_structure_geo,response,False,0,,[],[],0.0,0.0,0,0,0.0,,not_evaluable,"[""Response is not valid JSON""]",stop
+388,Q001_A__rep2__faq_geo,Q001_A__rep2,Q001_A,2,faq_geo,response,True,1,False,"[""DOC_001"", ""DOC_007"", ""DOC_009""]","[3, 2, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+389,Q012_A__rep2__entity_structure_geo,Q012_A__rep2,Q012_A,2,entity_structure_geo,response,True,1,False,"[""DOC_012"", ""DOC_011"", ""DOC_003""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,fail,"[""Quote not found after whitespace normalization""]",stop
+390,Q012_A__rep2__faq_geo,Q012_A__rep2,Q012_A,2,faq_geo,response,True,1,False,"[""DOC_012"", ""DOC_011"", ""DOC_003""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,fail,"[""Quote not found after whitespace normalization""]",stop
+391,Q012_A__rep2__full_geo,Q012_A__rep2,Q012_A,2,full_geo,response,True,1,False,"[""DOC_012"", ""DOC_011"", ""DOC_003""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+392,Q012_A__rep2__baseline,Q012_A__rep2,Q012_A,2,baseline,response,True,1,False,"[""DOC_012"", ""DOC_011"", ""DOC_003""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+393,Q013_A__rep2__faq_geo,Q013_A__rep2,Q013_A,2,faq_geo,response,True,1,False,"[""DOC_013"", ""DOC_004"", ""DOC_005""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+394,Q013_A__rep2__entity_structure_geo,Q013_A__rep2,Q013_A,2,entity_structure_geo,response,True,1,False,"[""DOC_013"", ""DOC_004"", ""DOC_014""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+395,Q013_A__rep2__baseline,Q013_A__rep2,Q013_A,2,baseline,response,True,1,False,"[""DOC_013"", ""DOC_004"", ""DOC_014""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+396,Q013_A__rep2__full_geo,Q013_A__rep2,Q013_A,2,full_geo,response,True,1,False,"[""DOC_013"", ""DOC_004"", ""DOC_014""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+397,Q014_T__rep1__full_geo,Q014_T__rep1,Q014_T,1,full_geo,response,True,1,False,"[""DOC_014"", ""DOC_004"", ""DOC_013""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+398,Q014_T__rep1__baseline,Q014_T__rep1,Q014_T,1,baseline,response,True,1,False,"[""DOC_014"", ""DOC_004"", ""DOC_013""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+399,Q014_T__rep1__entity_structure_geo,Q014_T__rep1,Q014_T,1,entity_structure_geo,response,True,1,False,"[""DOC_014"", ""DOC_004"", ""DOC_013""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+400,Q014_T__rep1__faq_geo,Q014_T__rep1,Q014_T,1,faq_geo,response,True,1,False,"[""DOC_014"", ""DOC_004"", ""DOC_013""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+401,Q002_A__rep3__baseline,Q002_A__rep3,Q002_A,3,baseline,response,True,1,False,"[""DOC_002"", ""DOC_010"", ""DOC_007""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+402,Q002_A__rep3__entity_structure_geo,Q002_A__rep3,Q002_A,3,entity_structure_geo,response,True,1,False,"[""DOC_002"", ""DOC_010"", ""DOC_009""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+403,Q002_A__rep3__full_geo,Q002_A__rep3,Q002_A,3,full_geo,response,True,1,False,"[""DOC_002"", ""DOC_010"", ""DOC_009""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+404,Q002_A__rep3__faq_geo,Q002_A__rep3,Q002_A,3,faq_geo,response,True,1,False,"[""DOC_002"", ""DOC_010"", ""DOC_009""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+405,Q002_L__rep3__baseline,Q002_L__rep3,Q002_L,3,baseline,response,True,1,False,"[""DOC_002"", ""DOC_010"", ""DOC_016""]","[3, 0, 1]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+406,Q002_L__rep3__full_geo,Q002_L__rep3,Q002_L,3,full_geo,response,True,1,False,"[""DOC_002"", ""DOC_010"", ""DOC_016""]","[3, 0, 1]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+407,Q002_L__rep3__faq_geo,Q002_L__rep3,Q002_L,3,faq_geo,response,True,1,False,"[""DOC_002"", ""DOC_016"", ""DOC_010""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+408,Q002_L__rep3__entity_structure_geo,Q002_L__rep3,Q002_L,3,entity_structure_geo,response,True,1,False,"[""DOC_002"", ""DOC_010"", ""DOC_016""]","[3, 0, 1]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+409,Q007_A__rep3__faq_geo,Q007_A__rep3,Q007_A,3,faq_geo,response,True,1,False,"[""DOC_007"", ""DOC_001"", ""DOC_008""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+410,Q007_A__rep3__entity_structure_geo,Q007_A__rep3,Q007_A,3,entity_structure_geo,response,True,1,False,"[""DOC_007"", ""DOC_001"", ""DOC_010""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+411,Q007_A__rep3__full_geo,Q007_A__rep3,Q007_A,3,full_geo,response,True,1,False,"[""DOC_007"", ""DOC_001"", ""DOC_008""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+412,Q007_A__rep3__baseline,Q007_A__rep3,Q007_A,3,baseline,response,True,1,False,"[""DOC_007"", ""DOC_001"", ""DOC_008""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+413,Q007_L__rep1__entity_structure_geo,Q007_L__rep1,Q007_L,1,entity_structure_geo,response,False,0,,[],[],0.0,0.0,0,0,0.0,,not_evaluable,"[""Response is not valid JSON""]",stop
+414,Q007_L__rep1__full_geo,Q007_L__rep1,Q007_L,1,full_geo,response,True,1,False,"[""DOC_007"", ""DOC_001"", ""DOC_008""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+415,Q007_L__rep1__baseline,Q007_L__rep1,Q007_L,1,baseline,response,True,1,False,"[""DOC_007"", ""DOC_001"", ""DOC_008""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+416,Q007_L__rep1__faq_geo,Q007_L__rep1,Q007_L,1,faq_geo,response,True,1,False,"[""DOC_007"", ""DOC_008"", ""DOC_001""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+417,Q006_L__rep2__full_geo,Q006_L__rep2,Q006_L,2,full_geo,response,True,1,False,"[""DOC_006"", ""DOC_017"", ""DOC_008""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,fail,"[""Quote not found after whitespace normalization""]",stop
+418,Q006_L__rep2__faq_geo,Q006_L__rep2,Q006_L,2,faq_geo,response,True,1,False,"[""DOC_006"", ""DOC_001"", ""DOC_007""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+419,Q006_L__rep2__baseline,Q006_L__rep2,Q006_L,2,baseline,response,False,0,,[],[],0.0,0.0,0,0,0.0,,not_evaluable,"[""Response is not valid JSON""]",stop
+420,Q006_L__rep2__entity_structure_geo,Q006_L__rep2,Q006_L,2,entity_structure_geo,response,False,0,,[],[],0.0,0.0,0,0,0.0,,not_evaluable,"[""Response is not valid JSON""]",stop
+421,Q012_L__rep2__baseline,Q012_L__rep2,Q012_L,2,baseline,response,True,1,False,"[""DOC_012"", ""DOC_011"", ""DOC_003""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+422,Q012_L__rep2__full_geo,Q012_L__rep2,Q012_L,2,full_geo,response,True,1,False,"[""DOC_012"", ""DOC_011"", ""DOC_003""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+423,Q012_L__rep2__entity_structure_geo,Q012_L__rep2,Q012_L,2,entity_structure_geo,response,True,1,False,"[""DOC_012"", ""DOC_011"", ""DOC_003""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+424,Q012_L__rep2__faq_geo,Q012_L__rep2,Q012_L,2,faq_geo,response,True,1,False,"[""DOC_012"", ""DOC_011"", ""DOC_003""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+425,Q006_T__rep1__full_geo,Q006_T__rep1,Q006_T,1,full_geo,response,True,1,False,"[""DOC_006"", ""DOC_001"", ""DOC_008""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+426,Q006_T__rep1__entity_structure_geo,Q006_T__rep1,Q006_T,1,entity_structure_geo,response,True,1,False,"[""DOC_006"", ""DOC_001"", ""DOC_008""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,fail,"[""First-ranked ID not present in answer"", ""Quote not found after whitespace normalization""]",stop
+427,Q006_T__rep1__faq_geo,Q006_T__rep1,Q006_T,1,faq_geo,response,True,1,False,"[""DOC_006"", ""DOC_001"", ""DOC_008""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+428,Q006_T__rep1__baseline,Q006_T__rep1,Q006_T,1,baseline,response,True,1,False,"[""DOC_006"", ""DOC_001"", ""DOC_007""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+429,Q008_L__rep2__baseline,Q008_L__rep2,Q008_L,2,baseline,response,True,1,False,"[""DOC_008"", ""DOC_007"", ""DOC_001""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+430,Q008_L__rep2__faq_geo,Q008_L__rep2,Q008_L,2,faq_geo,response,True,1,False,"[""DOC_008"", ""DOC_007"", ""DOC_001""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+431,Q008_L__rep2__full_geo,Q008_L__rep2,Q008_L,2,full_geo,response,True,1,False,"[""DOC_008"", ""DOC_007"", ""DOC_001""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+432,Q008_L__rep2__entity_structure_geo,Q008_L__rep2,Q008_L,2,entity_structure_geo,response,True,1,False,"[""DOC_008"", ""DOC_007"", ""DOC_001""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+433,Q009_T__rep3__entity_structure_geo,Q009_T__rep3,Q009_T,3,entity_structure_geo,response,True,1,False,"[""DOC_009"", ""DOC_010"", ""DOC_002""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+434,Q009_T__rep3__full_geo,Q009_T__rep3,Q009_T,3,full_geo,response,True,1,False,"[""DOC_009"", ""DOC_010"", ""DOC_007""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+435,Q009_T__rep3__faq_geo,Q009_T__rep3,Q009_T,3,faq_geo,response,True,1,False,"[""DOC_009"", ""DOC_010"", ""DOC_007""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+436,Q009_T__rep3__baseline,Q009_T__rep3,Q009_T,3,baseline,response,True,1,False,"[""DOC_009"", ""DOC_010"", ""DOC_002""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+437,Q012_L__rep3__baseline,Q012_L__rep3,Q012_L,3,baseline,response,True,1,False,"[""DOC_012"", ""DOC_011"", ""DOC_003""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+438,Q012_L__rep3__full_geo,Q012_L__rep3,Q012_L,3,full_geo,response,True,1,False,"[""DOC_012"", ""DOC_011"", ""DOC_003""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+439,Q012_L__rep3__entity_structure_geo,Q012_L__rep3,Q012_L,3,entity_structure_geo,response,True,1,False,"[""DOC_012"", ""DOC_011"", ""DOC_003""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,fail,"[""Quote not found after whitespace normalization""]",stop
+440,Q012_L__rep3__faq_geo,Q012_L__rep3,Q012_L,3,faq_geo,response,True,1,False,"[""DOC_012"", ""DOC_011"", ""DOC_003""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+441,Q008_A__rep3__faq_geo,Q008_A__rep3,Q008_A,3,faq_geo,response,True,1,False,"[""DOC_008"", ""DOC_007"", ""DOC_001""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+442,Q008_A__rep3__full_geo,Q008_A__rep3,Q008_A,3,full_geo,response,True,1,False,"[""DOC_008"", ""DOC_007"", ""DOC_001""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+443,Q008_A__rep3__baseline,Q008_A__rep3,Q008_A,3,baseline,response,True,1,False,"[""DOC_008"", ""DOC_007"", ""DOC_001""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+444,Q008_A__rep3__entity_structure_geo,Q008_A__rep3,Q008_A,3,entity_structure_geo,response,True,1,False,"[""DOC_008"", ""DOC_007"", ""DOC_001""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+445,Q005_A__rep2__full_geo,Q005_A__rep2,Q005_A,2,full_geo,response,False,0,,[],[],0.0,0.0,0,0,0.0,,not_evaluable,"[""Response is not valid JSON""]",stop
+446,Q005_A__rep2__entity_structure_geo,Q005_A__rep2,Q005_A,2,entity_structure_geo,response,False,0,,[],[],0.0,0.0,0,0,0.0,,not_evaluable,"[""Response is not valid JSON""]",stop
+447,Q005_A__rep2__baseline,Q005_A__rep2,Q005_A,2,baseline,response,True,1,False,"[""DOC_005"", ""DOC_016"", ""DOC_018""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+448,Q005_A__rep2__faq_geo,Q005_A__rep2,Q005_A,2,faq_geo,response,True,1,False,"[""DOC_005"", ""DOC_018"", ""DOC_016""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+449,Q005_L__rep1__entity_structure_geo,Q005_L__rep1,Q005_L,1,entity_structure_geo,response,True,1,False,"[""DOC_005"", ""DOC_016"", ""DOC_015""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,fail,"[""First-ranked ID not present in answer"", ""Quote not found after whitespace normalization""]",stop
+450,Q005_L__rep1__faq_geo,Q005_L__rep1,Q005_L,1,faq_geo,response,True,1,False,"[""DOC_005"", ""DOC_016"", ""DOC_015""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+451,Q005_L__rep1__baseline,Q005_L__rep1,Q005_L,1,baseline,response,True,1,False,"[""DOC_005"", ""DOC_016"", ""DOC_015""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+452,Q005_L__rep1__full_geo,Q005_L__rep1,Q005_L,1,full_geo,response,True,1,False,"[""DOC_005"", ""DOC_016"", ""DOC_015""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+453,Q003_A__rep1__baseline,Q003_A__rep1,Q003_A,1,baseline,response,False,0,,[],[],0.0,0.0,0,0,0.0,,not_evaluable,"[""Response is not valid JSON""]",stop
+454,Q003_A__rep1__faq_geo,Q003_A__rep1,Q003_A,1,faq_geo,response,True,1,False,"[""DOC_003"", ""DOC_011"", ""DOC_017""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,fail,"[""Quote not found after whitespace normalization""]",stop
+455,Q003_A__rep1__entity_structure_geo,Q003_A__rep1,Q003_A,1,entity_structure_geo,response,True,1,False,"[""DOC_003"", ""DOC_011"", ""DOC_017""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+456,Q003_A__rep1__full_geo,Q003_A__rep1,Q003_A,1,full_geo,response,True,1,False,"[""DOC_003"", ""DOC_011"", ""DOC_017""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+457,Q001_A__rep1__baseline,Q001_A__rep1,Q001_A,1,baseline,response,True,1,False,"[""DOC_001"", ""DOC_007"", ""DOC_010""]","[3, 2, 0]",1.0,1.0,1,1,1.0,1,fail,"[""Quote exceeds 50 words""]",stop
+458,Q001_A__rep1__faq_geo,Q001_A__rep1,Q001_A,1,faq_geo,response,False,0,,[],[],0.0,0.0,0,0,0.0,,not_evaluable,"[""Response is not valid JSON""]",stop
+459,Q001_A__rep1__entity_structure_geo,Q001_A__rep1,Q001_A,1,entity_structure_geo,response,True,1,False,"[""DOC_001"", ""DOC_007"", ""DOC_008""]","[3, 2, 0]",1.0,1.0,1,1,1.0,1,fail,"[""First-ranked ID not present in answer"", ""Quote exceeds 50 words""]",stop
+460,Q001_A__rep1__full_geo,Q001_A__rep1,Q001_A,1,full_geo,response,True,1,False,"[""DOC_001"", ""DOC_007"", ""DOC_008""]","[3, 2, 0]",1.0,1.0,1,1,1.0,1,fail,"[""Quote not found after whitespace normalization""]",stop
+461,Q005_L__rep2__entity_structure_geo,Q005_L__rep2,Q005_L,2,entity_structure_geo,response,False,0,,[],[],0.0,0.0,0,0,0.0,,not_evaluable,"[""Response is not valid JSON""]",stop
+462,Q005_L__rep2__faq_geo,Q005_L__rep2,Q005_L,2,faq_geo,response,True,1,False,"[""DOC_005"", ""DOC_016"", ""DOC_015""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+463,Q005_L__rep2__full_geo,Q005_L__rep2,Q005_L,2,full_geo,response,True,1,False,"[""DOC_005"", ""DOC_016"", ""DOC_015""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+464,Q005_L__rep2__baseline,Q005_L__rep2,Q005_L,2,baseline,response,True,1,False,"[""DOC_005"", ""DOC_016"", ""DOC_015""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+465,Q008_A__rep1__full_geo,Q008_A__rep1,Q008_A,1,full_geo,response,True,1,False,"[""DOC_008"", ""DOC_007"", ""DOC_001""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+466,Q008_A__rep1__faq_geo,Q008_A__rep1,Q008_A,1,faq_geo,response,True,1,False,"[""DOC_008"", ""DOC_007"", ""DOC_001""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+467,Q008_A__rep1__entity_structure_geo,Q008_A__rep1,Q008_A,1,entity_structure_geo,response,True,1,False,"[""DOC_008"", ""DOC_007"", ""DOC_001""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+468,Q008_A__rep1__baseline,Q008_A__rep1,Q008_A,1,baseline,response,True,1,False,"[""DOC_008"", ""DOC_007"", ""DOC_001""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+469,Q013_L__rep3__full_geo,Q013_L__rep3,Q013_L,3,full_geo,response,True,1,False,"[""DOC_013"", ""DOC_004"", ""DOC_014""]","[3, 2, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+470,Q013_L__rep3__faq_geo,Q013_L__rep3,Q013_L,3,faq_geo,response,True,1,False,"[""DOC_013"", ""DOC_004"", ""DOC_014""]","[3, 2, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+471,Q013_L__rep3__entity_structure_geo,Q013_L__rep3,Q013_L,3,entity_structure_geo,response,True,1,False,"[""DOC_013"", ""DOC_004"", ""DOC_014""]","[3, 2, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+472,Q013_L__rep3__baseline,Q013_L__rep3,Q013_L,3,baseline,response,True,1,False,"[""DOC_013"", ""DOC_004"", ""DOC_014""]","[3, 2, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+473,Q010_A__rep2__entity_structure_geo,Q010_A__rep2,Q010_A,2,entity_structure_geo,response,True,1,False,"[""DOC_010"", ""DOC_009"", ""DOC_007""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+474,Q010_A__rep2__faq_geo,Q010_A__rep2,Q010_A,2,faq_geo,response,True,1,False,"[""DOC_010"", ""DOC_009"", ""DOC_007""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+475,Q010_A__rep2__full_geo,Q010_A__rep2,Q010_A,2,full_geo,response,True,1,False,"[""DOC_010"", ""DOC_009"", ""DOC_002""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+476,Q010_A__rep2__baseline,Q010_A__rep2,Q010_A,2,baseline,response,True,1,False,"[""DOC_010"", ""DOC_009"", ""DOC_002""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+477,Q016_T__rep3__full_geo,Q016_T__rep3,Q016_T,3,full_geo,response,True,1,False,"[""DOC_016"", ""DOC_005"", ""DOC_015""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+478,Q016_T__rep3__baseline,Q016_T__rep3,Q016_T,3,baseline,response,True,1,False,"[""DOC_016"", ""DOC_005"", ""DOC_015""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+479,Q016_T__rep3__entity_structure_geo,Q016_T__rep3,Q016_T,3,entity_structure_geo,response,True,1,False,"[""DOC_016"", ""DOC_005"", ""DOC_015""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+480,Q016_T__rep3__faq_geo,Q016_T__rep3,Q016_T,3,faq_geo,response,True,1,False,"[""DOC_016"", ""DOC_005"", ""DOC_015""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+481,Q011_A__rep3__entity_structure_geo,Q011_A__rep3,Q011_A,3,entity_structure_geo,response,True,1,False,"[""DOC_011"", ""DOC_003"", ""DOC_012""]","[3, 0, 1]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+482,Q011_A__rep3__full_geo,Q011_A__rep3,Q011_A,3,full_geo,response,True,1,False,"[""DOC_011"", ""DOC_003"", ""DOC_012""]","[3, 0, 1]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+483,Q011_A__rep3__faq_geo,Q011_A__rep3,Q011_A,3,faq_geo,response,True,1,False,"[""DOC_011"", ""DOC_003"", ""DOC_012""]","[3, 0, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+484,Q011_A__rep3__baseline,Q011_A__rep3,Q011_A,3,baseline,response,True,1,False,"[""DOC_011"", ""DOC_016"", ""DOC_003""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,fail,"[""Quote not found after whitespace normalization""]",stop
+485,Q006_A__rep2__faq_geo,Q006_A__rep2,Q006_A,2,faq_geo,response,True,1,False,"[""DOC_006"", ""DOC_017"", ""DOC_001""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,fail,"[""Quote not found after whitespace normalization""]",stop
+486,Q006_A__rep2__entity_structure_geo,Q006_A__rep2,Q006_A,2,entity_structure_geo,response,True,1,False,"[""DOC_006"", ""DOC_017"", ""DOC_007""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,fail,"[""Quote not found after whitespace normalization"", ""Quote not found after whitespace normalization""]",stop
+487,Q006_A__rep2__full_geo,Q006_A__rep2,Q006_A,2,full_geo,response,True,1,False,"[""DOC_006"", ""DOC_017"", ""DOC_001""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,fail,"[""First-ranked ID not present in answer"", ""Quote not found after whitespace normalization""]",stop
+488,Q006_A__rep2__baseline,Q006_A__rep2,Q006_A,2,baseline,response,True,1,False,"[""DOC_006"", ""DOC_017"", ""DOC_007""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+489,Q015_T__rep2__full_geo,Q015_T__rep2,Q015_T,2,full_geo,response,True,1,False,"[""DOC_015"", ""DOC_005"", ""DOC_016""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+490,Q015_T__rep2__faq_geo,Q015_T__rep2,Q015_T,2,faq_geo,response,True,1,False,"[""DOC_015"", ""DOC_005"", ""DOC_016""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+491,Q015_T__rep2__baseline,Q015_T__rep2,Q015_T,2,baseline,response,True,1,False,"[""DOC_015"", ""DOC_005"", ""DOC_016""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+492,Q015_T__rep2__entity_structure_geo,Q015_T__rep2,Q015_T,2,entity_structure_geo,response,True,1,False,"[""DOC_015"", ""DOC_005"", ""DOC_016""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+493,Q013_L__rep1__entity_structure_geo,Q013_L__rep1,Q013_L,1,entity_structure_geo,response,True,1,False,"[""DOC_013"", ""DOC_004"", ""DOC_014""]","[3, 2, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+494,Q013_L__rep1__faq_geo,Q013_L__rep1,Q013_L,1,faq_geo,response,True,1,False,"[""DOC_013"", ""DOC_004"", ""DOC_014""]","[3, 2, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+495,Q013_L__rep1__full_geo,Q013_L__rep1,Q013_L,1,full_geo,response,True,1,False,"[""DOC_013"", ""DOC_004"", ""DOC_014""]","[3, 2, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+496,Q013_L__rep1__baseline,Q013_L__rep1,Q013_L,1,baseline,response,True,1,False,"[""DOC_013"", ""DOC_004"", ""DOC_014""]","[3, 2, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+497,Q006_T__rep3__faq_geo,Q006_T__rep3,Q006_T,3,faq_geo,response,True,1,False,"[""DOC_006"", ""DOC_017"", ""DOC_002""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,fail,"[""Quote not found after whitespace normalization""]",stop
+498,Q006_T__rep3__full_geo,Q006_T__rep3,Q006_T,3,full_geo,response,True,1,False,"[""DOC_006"", ""DOC_002"", ""DOC_018""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+499,Q006_T__rep3__entity_structure_geo,Q006_T__rep3,Q006_T,3,entity_structure_geo,response,True,1,False,"[""DOC_006"", ""DOC_007"", ""DOC_001""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+500,Q006_T__rep3__baseline,Q006_T__rep3,Q006_T,3,baseline,response,True,1,False,"[""DOC_006"", ""DOC_002"", ""DOC_018""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+501,Q017_L__rep3__full_geo,Q017_L__rep3,Q017_L,3,full_geo,response,True,1,False,"[""DOC_017"", ""DOC_003"", ""DOC_011""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+502,Q017_L__rep3__entity_structure_geo,Q017_L__rep3,Q017_L,3,entity_structure_geo,response,True,1,False,"[""DOC_017"", ""DOC_003"", ""DOC_011""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+503,Q017_L__rep3__baseline,Q017_L__rep3,Q017_L,3,baseline,response,True,1,False,"[""DOC_017"", ""DOC_003"", ""DOC_011""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,fail,"[""Quote exceeds 50 words"", ""Quote not found after whitespace normalization""]",stop
+504,Q017_L__rep3__faq_geo,Q017_L__rep3,Q017_L,3,faq_geo,response,True,1,False,"[""DOC_017"", ""DOC_003"", ""DOC_006""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,fail,"[""Quote exceeds 50 words""]",stop
+505,Q003_T__rep1__entity_structure_geo,Q003_T__rep1,Q003_T,1,entity_structure_geo,response,True,1,False,"[""DOC_003"", ""DOC_011"", ""DOC_017""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+506,Q003_T__rep1__faq_geo,Q003_T__rep1,Q003_T,1,faq_geo,response,True,1,False,"[""DOC_003"", ""DOC_011"", ""DOC_017""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+507,Q003_T__rep1__baseline,Q003_T__rep1,Q003_T,1,baseline,response,True,1,False,"[""DOC_003"", ""DOC_011"", ""DOC_012""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+508,Q003_T__rep1__full_geo,Q003_T__rep1,Q003_T,1,full_geo,response,True,1,False,"[""DOC_003"", ""DOC_011"", ""DOC_017""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+509,Q003_L__rep2__faq_geo,Q003_L__rep2,Q003_L,2,faq_geo,response,True,1,False,"[""DOC_003"", ""DOC_017"", ""DOC_011""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+510,Q003_L__rep2__entity_structure_geo,Q003_L__rep2,Q003_L,2,entity_structure_geo,response,True,1,False,"[""DOC_003"", ""DOC_017"", ""DOC_011""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+511,Q003_L__rep2__full_geo,Q003_L__rep2,Q003_L,2,full_geo,response,True,1,False,"[""DOC_003"", ""DOC_011"", ""DOC_017""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,fail,"[""Quote not found after whitespace normalization""]",stop
+512,Q003_L__rep2__baseline,Q003_L__rep2,Q003_L,2,baseline,response,True,1,False,"[""DOC_003"", ""DOC_017"", ""DOC_011""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+513,Q017_A__rep3__faq_geo,Q017_A__rep3,Q017_A,3,faq_geo,response,True,1,False,"[""DOC_017"", ""DOC_006"", ""DOC_003""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+514,Q017_A__rep3__baseline,Q017_A__rep3,Q017_A,3,baseline,response,True,1,False,"[""DOC_017"", ""DOC_003"", ""DOC_006""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+515,Q017_A__rep3__entity_structure_geo,Q017_A__rep3,Q017_A,3,entity_structure_geo,response,True,1,False,"[""DOC_017"", ""DOC_003"", ""DOC_006""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+516,Q017_A__rep3__full_geo,Q017_A__rep3,Q017_A,3,full_geo,response,True,1,False,"[""DOC_017"", ""DOC_003"", ""DOC_006""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+517,Q017_T__rep2__full_geo,Q017_T__rep2,Q017_T,2,full_geo,response,True,1,False,"[""DOC_017"", ""DOC_006"", ""DOC_018""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,fail,"[""Quote not found after whitespace normalization""]",stop
+518,Q017_T__rep2__faq_geo,Q017_T__rep2,Q017_T,2,faq_geo,response,True,1,False,"[""DOC_017"", ""DOC_006"", ""DOC_018""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+519,Q017_T__rep2__baseline,Q017_T__rep2,Q017_T,2,baseline,response,True,1,False,"[""DOC_017"", ""DOC_006"", ""DOC_018""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,fail,"[""Quote exceeds 50 words""]",stop
+520,Q017_T__rep2__entity_structure_geo,Q017_T__rep2,Q017_T,2,entity_structure_geo,response,True,1,False,"[""DOC_017"", ""DOC_006"", ""DOC_003""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,fail,"[""Quote exceeds 50 words""]",stop
+521,Q010_A__rep3__baseline,Q010_A__rep3,Q010_A,3,baseline,response,False,0,,[],[],0.0,0.0,0,0,0.0,,not_evaluable,"[""Response is not valid JSON""]",stop
+522,Q010_A__rep3__full_geo,Q010_A__rep3,Q010_A,3,full_geo,response,True,1,False,"[""DOC_010"", ""DOC_009"", ""DOC_002""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+523,Q010_A__rep3__entity_structure_geo,Q010_A__rep3,Q010_A,3,entity_structure_geo,response,True,1,False,"[""DOC_010"", ""DOC_009"", ""DOC_002""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+524,Q010_A__rep3__faq_geo,Q010_A__rep3,Q010_A,3,faq_geo,response,True,1,False,"[""DOC_010"", ""DOC_009"", ""DOC_002""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+525,Q009_L__rep2__entity_structure_geo,Q009_L__rep2,Q009_L,2,entity_structure_geo,response,True,1,False,"[""DOC_009"", ""DOC_010"", ""DOC_001""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+526,Q009_L__rep2__faq_geo,Q009_L__rep2,Q009_L,2,faq_geo,response,True,1,False,"[""DOC_009"", ""DOC_010"", ""DOC_002""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+527,Q009_L__rep2__full_geo,Q009_L__rep2,Q009_L,2,full_geo,response,True,1,False,"[""DOC_009"", ""DOC_010"", ""DOC_001""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+528,Q009_L__rep2__baseline,Q009_L__rep2,Q009_L,2,baseline,response,True,1,False,"[""DOC_009"", ""DOC_010"", ""DOC_001""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+529,Q004_T__rep1__faq_geo,Q004_T__rep1,Q004_T,1,faq_geo,response,True,1,False,"[""DOC_004"", ""DOC_013"", ""DOC_005""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+530,Q004_T__rep1__full_geo,Q004_T__rep1,Q004_T,1,full_geo,response,True,1,False,"[""DOC_004"", ""DOC_013"", ""DOC_014""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+531,Q004_T__rep1__baseline,Q004_T__rep1,Q004_T,1,baseline,response,True,1,False,"[""DOC_004"", ""DOC_013"", ""DOC_014""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+532,Q004_T__rep1__entity_structure_geo,Q004_T__rep1,Q004_T,1,entity_structure_geo,response,True,1,False,"[""DOC_004"", ""DOC_013"", ""DOC_005""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+533,Q002_A__rep1__baseline,Q002_A__rep1,Q002_A,1,baseline,response,True,1,False,"[""DOC_002"", ""DOC_009"", ""DOC_010""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+534,Q002_A__rep1__entity_structure_geo,Q002_A__rep1,Q002_A,1,entity_structure_geo,response,True,1,False,"[""DOC_002"", ""DOC_009"", ""DOC_010""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+535,Q002_A__rep1__full_geo,Q002_A__rep1,Q002_A,1,full_geo,response,True,1,False,"[""DOC_002"", ""DOC_010"", ""DOC_009""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+536,Q002_A__rep1__faq_geo,Q002_A__rep1,Q002_A,1,faq_geo,response,True,1,False,"[""DOC_002"", ""DOC_010"", ""DOC_009""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+537,Q014_L__rep2__baseline,Q014_L__rep2,Q014_L,2,baseline,response,True,1,False,"[""DOC_014"", ""DOC_004"", ""DOC_013""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+538,Q014_L__rep2__faq_geo,Q014_L__rep2,Q014_L,2,faq_geo,response,False,0,,[],[],0.0,0.0,0,0,0.0,,not_evaluable,"[""Response is not valid JSON""]",stop
+539,Q014_L__rep2__full_geo,Q014_L__rep2,Q014_L,2,full_geo,response,True,1,False,"[""DOC_014"", ""DOC_004"", ""DOC_013""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+540,Q014_L__rep2__entity_structure_geo,Q014_L__rep2,Q014_L,2,entity_structure_geo,response,True,1,False,"[""DOC_014"", ""DOC_004"", ""DOC_013""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+541,Q012_T__rep3__full_geo,Q012_T__rep3,Q012_T,3,full_geo,response,True,1,False,"[""DOC_012"", ""DOC_011"", ""DOC_003""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,fail,"[""Quote not found after whitespace normalization""]",stop
+542,Q012_T__rep3__faq_geo,Q012_T__rep3,Q012_T,3,faq_geo,response,True,1,False,"[""DOC_012"", ""DOC_011"", ""DOC_003""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+543,Q012_T__rep3__entity_structure_geo,Q012_T__rep3,Q012_T,3,entity_structure_geo,response,True,1,False,"[""DOC_012"", ""DOC_011"", ""DOC_003""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+544,Q012_T__rep3__baseline,Q012_T__rep3,Q012_T,3,baseline,response,True,1,False,"[""DOC_012"", ""DOC_011"", ""DOC_003""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+545,Q011_L__rep1__entity_structure_geo,Q011_L__rep1,Q011_L,1,entity_structure_geo,response,True,1,False,"[""DOC_011"", ""DOC_003"", ""DOC_012""]","[3, 0, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+546,Q011_L__rep1__baseline,Q011_L__rep1,Q011_L,1,baseline,response,True,1,False,"[""DOC_011"", ""DOC_003"", ""DOC_017""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+547,Q011_L__rep1__faq_geo,Q011_L__rep1,Q011_L,1,faq_geo,response,True,1,False,"[""DOC_011"", ""DOC_003"", ""DOC_012""]","[3, 0, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+548,Q011_L__rep1__full_geo,Q011_L__rep1,Q011_L,1,full_geo,response,True,1,False,"[""DOC_011"", ""DOC_003"", ""DOC_012""]","[3, 0, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+549,Q014_L__rep1__faq_geo,Q014_L__rep1,Q014_L,1,faq_geo,response,True,1,False,"[""DOC_014"", ""DOC_004"", ""DOC_013""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+550,Q014_L__rep1__baseline,Q014_L__rep1,Q014_L,1,baseline,response,False,0,,[],[],0.0,0.0,0,0,0.0,,not_evaluable,"[""Response is not valid JSON""]",stop
+551,Q014_L__rep1__full_geo,Q014_L__rep1,Q014_L,1,full_geo,response,True,1,False,"[""DOC_014"", ""DOC_004"", ""DOC_013""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+552,Q014_L__rep1__entity_structure_geo,Q014_L__rep1,Q014_L,1,entity_structure_geo,response,False,0,,[],[],0.0,0.0,0,0,0.0,,not_evaluable,"[""Response is not valid JSON""]",stop
+553,Q015_A__rep1__faq_geo,Q015_A__rep1,Q015_A,1,faq_geo,response,True,1,False,"[""DOC_015"", ""DOC_005"", ""DOC_016""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+554,Q015_A__rep1__entity_structure_geo,Q015_A__rep1,Q015_A,1,entity_structure_geo,response,False,0,,[],[],0.0,0.0,0,0,0.0,,not_evaluable,"[""Response is not valid JSON""]",stop
+555,Q015_A__rep1__full_geo,Q015_A__rep1,Q015_A,1,full_geo,response,True,1,False,"[""DOC_015"", ""DOC_005"", ""DOC_016""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+556,Q015_A__rep1__baseline,Q015_A__rep1,Q015_A,1,baseline,response,True,1,False,"[""DOC_015"", ""DOC_005"", ""DOC_016""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+557,Q015_L__rep3__baseline,Q015_L__rep3,Q015_L,3,baseline,response,True,1,False,"[""DOC_015"", ""DOC_005"", ""DOC_016""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+558,Q015_L__rep3__full_geo,Q015_L__rep3,Q015_L,3,full_geo,response,True,1,False,"[""DOC_015"", ""DOC_005"", ""DOC_016""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+559,Q015_L__rep3__faq_geo,Q015_L__rep3,Q015_L,3,faq_geo,response,True,1,False,"[""DOC_015"", ""DOC_005"", ""DOC_016""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+560,Q015_L__rep3__entity_structure_geo,Q015_L__rep3,Q015_L,3,entity_structure_geo,response,True,1,False,"[""DOC_015"", ""DOC_005"", ""DOC_016""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+561,Q015_L__rep2__entity_structure_geo,Q015_L__rep2,Q015_L,2,entity_structure_geo,response,True,1,False,"[""DOC_015"", ""DOC_005"", ""DOC_016""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+562,Q015_L__rep2__full_geo,Q015_L__rep2,Q015_L,2,full_geo,response,True,1,False,"[""DOC_015"", ""DOC_005"", ""DOC_016""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+563,Q015_L__rep2__baseline,Q015_L__rep2,Q015_L,2,baseline,response,True,1,False,"[""DOC_015"", ""DOC_005"", ""DOC_016""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+564,Q015_L__rep2__faq_geo,Q015_L__rep2,Q015_L,2,faq_geo,response,True,1,False,"[""DOC_015"", ""DOC_005"", ""DOC_016""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+565,Q010_A__rep1__baseline,Q010_A__rep1,Q010_A,1,baseline,response,True,1,False,"[""DOC_010"", ""DOC_009"", ""DOC_007""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+566,Q010_A__rep1__full_geo,Q010_A__rep1,Q010_A,1,full_geo,response,True,1,False,"[""DOC_010"", ""DOC_007"", ""DOC_009""]","[3, 0, 1]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+567,Q010_A__rep1__entity_structure_geo,Q010_A__rep1,Q010_A,1,entity_structure_geo,response,True,1,False,"[""DOC_010"", ""DOC_009"", ""DOC_002""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+568,Q010_A__rep1__faq_geo,Q010_A__rep1,Q010_A,1,faq_geo,response,True,1,False,"[""DOC_010"", ""DOC_009"", ""DOC_007""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+569,Q005_T__rep3__entity_structure_geo,Q005_T__rep3,Q005_T,3,entity_structure_geo,response,False,0,,[],[],0.0,0.0,0,0,0.0,,not_evaluable,"[""Response is not valid JSON""]",stop
+570,Q005_T__rep3__baseline,Q005_T__rep3,Q005_T,3,baseline,response,True,1,False,"[""DOC_005"", ""DOC_016"", ""DOC_015""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+571,Q005_T__rep3__faq_geo,Q005_T__rep3,Q005_T,3,faq_geo,response,True,1,False,"[""DOC_005"", ""DOC_016"", ""DOC_015""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+572,Q005_T__rep3__full_geo,Q005_T__rep3,Q005_T,3,full_geo,response,True,1,False,"[""DOC_005"", ""DOC_016"", ""DOC_015""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+573,Q006_L__rep3__full_geo,Q006_L__rep3,Q006_L,3,full_geo,response,True,1,False,"[""DOC_006"", ""DOC_001"", ""DOC_017""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+574,Q006_L__rep3__entity_structure_geo,Q006_L__rep3,Q006_L,3,entity_structure_geo,response,True,1,False,"[""DOC_006"", ""DOC_017"", ""DOC_001""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+575,Q006_L__rep3__baseline,Q006_L__rep3,Q006_L,3,baseline,response,True,1,False,"[""DOC_006"", ""DOC_017"", ""DOC_001""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,fail,"[""First-ranked ID not present in answer"", ""Quote not found after whitespace normalization""]",stop
+576,Q006_L__rep3__faq_geo,Q006_L__rep3,Q006_L,3,faq_geo,response,False,0,,[],[],0.0,0.0,0,0,0.0,,not_evaluable,"[""Response is not valid JSON""]",stop
+577,Q007_A__rep1__baseline,Q007_A__rep1,Q007_A,1,baseline,response,True,1,False,"[""DOC_007"", ""DOC_001"", ""DOC_008""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+578,Q007_A__rep1__full_geo,Q007_A__rep1,Q007_A,1,full_geo,response,True,1,False,"[""DOC_007"", ""DOC_008"", ""DOC_001""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+579,Q007_A__rep1__entity_structure_geo,Q007_A__rep1,Q007_A,1,entity_structure_geo,response,True,1,False,"[""DOC_007"", ""DOC_001"", ""DOC_008""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+580,Q007_A__rep1__faq_geo,Q007_A__rep1,Q007_A,1,faq_geo,response,True,1,False,"[""DOC_007"", ""DOC_010"", ""DOC_001""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+581,Q010_T__rep1__baseline,Q010_T__rep1,Q010_T,1,baseline,response,True,1,False,"[""DOC_010"", ""DOC_009"", ""DOC_007""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+582,Q010_T__rep1__faq_geo,Q010_T__rep1,Q010_T,1,faq_geo,response,True,1,False,"[""DOC_010"", ""DOC_009"", ""DOC_007""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+583,Q010_T__rep1__full_geo,Q010_T__rep1,Q010_T,1,full_geo,response,True,1,False,"[""DOC_010"", ""DOC_009"", ""DOC_007""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+584,Q010_T__rep1__entity_structure_geo,Q010_T__rep1,Q010_T,1,entity_structure_geo,response,True,1,False,"[""DOC_010"", ""DOC_007"", ""DOC_009""]","[3, 0, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+585,Q016_L__rep2__faq_geo,Q016_L__rep2,Q016_L,2,faq_geo,response,True,1,False,"[""DOC_016"", ""DOC_005"", ""DOC_015""]","[3, 2, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+586,Q016_L__rep2__baseline,Q016_L__rep2,Q016_L,2,baseline,response,False,0,,[],[],0.0,0.0,0,0,0.0,,not_evaluable,"[""Response is not valid JSON""]",stop
+587,Q016_L__rep2__entity_structure_geo,Q016_L__rep2,Q016_L,2,entity_structure_geo,response,True,1,False,"[""DOC_016"", ""DOC_005"", ""DOC_011""]","[3, 2, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+588,Q016_L__rep2__full_geo,Q016_L__rep2,Q016_L,2,full_geo,response,True,1,False,"[""DOC_016"", ""DOC_005"", ""DOC_011""]","[3, 2, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+589,Q009_L__rep3__full_geo,Q009_L__rep3,Q009_L,3,full_geo,response,True,1,False,"[""DOC_009"", ""DOC_010"", ""DOC_001""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+590,Q009_L__rep3__baseline,Q009_L__rep3,Q009_L,3,baseline,response,True,1,False,"[""DOC_009"", ""DOC_010"", ""DOC_001""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+591,Q009_L__rep3__entity_structure_geo,Q009_L__rep3,Q009_L,3,entity_structure_geo,response,True,1,False,"[""DOC_009"", ""DOC_010"", ""DOC_001""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+592,Q009_L__rep3__faq_geo,Q009_L__rep3,Q009_L,3,faq_geo,response,True,1,False,"[""DOC_009"", ""DOC_010"", ""DOC_002""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+593,Q006_T__rep2__faq_geo,Q006_T__rep2,Q006_T,2,faq_geo,response,True,1,False,"[""DOC_006"", ""DOC_001"", ""DOC_007""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,fail,"[""First-ranked ID not present in answer"", ""Quote not found after whitespace normalization""]",stop
+594,Q006_T__rep2__full_geo,Q006_T__rep2,Q006_T,2,full_geo,response,True,1,False,"[""DOC_006"", ""DOC_018"", ""DOC_001""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,fail,"[""Quote not found after whitespace normalization""]",stop
+595,Q006_T__rep2__entity_structure_geo,Q006_T__rep2,Q006_T,2,entity_structure_geo,response,True,1,False,"[""DOC_006"", ""DOC_001"", ""DOC_007""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,fail,"[""First-ranked ID not present in answer"", ""Quote not found after whitespace normalization""]",stop
+596,Q006_T__rep2__baseline,Q006_T__rep2,Q006_T,2,baseline,response,True,1,False,"[""DOC_006"", ""DOC_001"", ""DOC_007""]","[3, 0, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+597,Q004_L__rep2__entity_structure_geo,Q004_L__rep2,Q004_L,2,entity_structure_geo,response,True,1,False,"[""DOC_004"", ""DOC_013"", ""DOC_005""]","[3, 2, 1]",1.0,1.0,1,1,1.0,1,fail,"[""First-ranked ID not present in answer"", ""Quote exceeds 50 words"", ""Quote not found after whitespace normalization""]",stop
+598,Q004_L__rep2__faq_geo,Q004_L__rep2,Q004_L,2,faq_geo,response,True,1,False,"[""DOC_004"", ""DOC_013"", ""DOC_005""]","[3, 2, 1]",1.0,1.0,1,1,1.0,1,fail,"[""Quote exceeds 50 words"", ""Quote not found after whitespace normalization""]",stop
+599,Q004_L__rep2__baseline,Q004_L__rep2,Q004_L,2,baseline,response,True,1,False,"[""DOC_004"", ""DOC_013"", ""DOC_005""]","[3, 2, 1]",1.0,1.0,1,1,1.0,1,fail,"[""First-ranked ID not present in answer"", ""Quote exceeds 50 words"", ""Quote not found after whitespace normalization""]",stop
+600,Q004_L__rep2__full_geo,Q004_L__rep2,Q004_L,2,full_geo,response,True,1,False,"[""DOC_004"", ""DOC_013"", ""DOC_014""]","[3, 2, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+601,Q004_L__rep3__entity_structure_geo,Q004_L__rep3,Q004_L,3,entity_structure_geo,response,True,1,False,"[""DOC_004"", ""DOC_013"", ""DOC_005""]","[3, 2, 1]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+602,Q004_L__rep3__full_geo,Q004_L__rep3,Q004_L,3,full_geo,response,True,1,False,"[""DOC_004"", ""DOC_013"", ""DOC_005""]","[3, 2, 1]",1.0,1.0,1,1,1.0,1,fail,"[""First-ranked ID not present in answer"", ""Quote exceeds 50 words""]",stop
+603,Q004_L__rep3__faq_geo,Q004_L__rep3,Q004_L,3,faq_geo,response,True,1,False,"[""DOC_004"", ""DOC_013"", ""DOC_014""]","[3, 2, 1]",1.0,1.0,1,1,1.0,1,fail,"[""Quote not found after whitespace normalization""]",stop
+604,Q004_L__rep3__baseline,Q004_L__rep3,Q004_L,3,baseline,response,True,1,False,"[""DOC_004"", ""DOC_013"", ""DOC_005""]","[3, 2, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+605,Q016_A__rep1__baseline,Q016_A__rep1,Q016_A,1,baseline,response,True,1,False,"[""DOC_016"", ""DOC_005"", ""DOC_011""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+606,Q016_A__rep1__faq_geo,Q016_A__rep1,Q016_A,1,faq_geo,response,True,1,False,"[""DOC_016"", ""DOC_011"", ""DOC_005""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+607,Q016_A__rep1__full_geo,Q016_A__rep1,Q016_A,1,full_geo,response,True,1,False,"[""DOC_016"", ""DOC_005"", ""DOC_011""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+608,Q016_A__rep1__entity_structure_geo,Q016_A__rep1,Q016_A,1,entity_structure_geo,response,True,1,False,"[""DOC_016"", ""DOC_005"", ""DOC_011""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+609,Q003_T__rep2__faq_geo,Q003_T__rep2,Q003_T,2,faq_geo,response,True,1,False,"[""DOC_003"", ""DOC_011"", ""DOC_017""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+610,Q003_T__rep2__entity_structure_geo,Q003_T__rep2,Q003_T,2,entity_structure_geo,response,True,1,False,"[""DOC_003"", ""DOC_011"", ""DOC_017""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,fail,"[""First-ranked ID not present in answer"", ""Quote not found after whitespace normalization""]",stop
+611,Q003_T__rep2__baseline,Q003_T__rep2,Q003_T,2,baseline,response,True,1,False,"[""DOC_003"", ""DOC_011"", ""DOC_017""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+612,Q003_T__rep2__full_geo,Q003_T__rep2,Q003_T,2,full_geo,response,True,1,False,"[""DOC_003"", ""DOC_011"", ""DOC_017""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+613,Q004_T__rep3__baseline,Q004_T__rep3,Q004_T,3,baseline,response,True,1,False,"[""DOC_004"", ""DOC_013"", ""DOC_005""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+614,Q004_T__rep3__entity_structure_geo,Q004_T__rep3,Q004_T,3,entity_structure_geo,response,True,1,False,"[""DOC_004"", ""DOC_013"", ""DOC_005""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+615,Q004_T__rep3__faq_geo,Q004_T__rep3,Q004_T,3,faq_geo,response,True,1,False,"[""DOC_004"", ""DOC_013"", ""DOC_005""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+616,Q004_T__rep3__full_geo,Q004_T__rep3,Q004_T,3,full_geo,response,True,1,False,"[""DOC_004"", ""DOC_013"", ""DOC_005""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+617,Q007_A__rep2__entity_structure_geo,Q007_A__rep2,Q007_A,2,entity_structure_geo,response,True,1,False,"[""DOC_007"", ""DOC_010"", ""DOC_001""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+618,Q007_A__rep2__full_geo,Q007_A__rep2,Q007_A,2,full_geo,response,True,1,False,"[""DOC_007"", ""DOC_001"", ""DOC_010""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+619,Q007_A__rep2__faq_geo,Q007_A__rep2,Q007_A,2,faq_geo,response,True,1,False,"[""DOC_007"", ""DOC_001"", ""DOC_010""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+620,Q007_A__rep2__baseline,Q007_A__rep2,Q007_A,2,baseline,response,True,1,False,"[""DOC_007"", ""DOC_010"", ""DOC_001""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+621,Q017_A__rep1__faq_geo,Q017_A__rep1,Q017_A,1,faq_geo,response,True,1,False,"[""DOC_017"", ""DOC_006"", ""DOC_003""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+622,Q017_A__rep1__baseline,Q017_A__rep1,Q017_A,1,baseline,response,True,1,False,"[""DOC_017"", ""DOC_003"", ""DOC_006""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+623,Q017_A__rep1__entity_structure_geo,Q017_A__rep1,Q017_A,1,entity_structure_geo,response,True,1,False,"[""DOC_017"", ""DOC_003"", ""DOC_006""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+624,Q017_A__rep1__full_geo,Q017_A__rep1,Q017_A,1,full_geo,response,True,1,False,"[""DOC_017"", ""DOC_006"", ""DOC_003""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+625,Q017_L__rep2__full_geo,Q017_L__rep2,Q017_L,2,full_geo,response,False,0,,[],[],0.0,0.0,0,0,0.0,,not_evaluable,"[""Response is not valid JSON""]",stop
+626,Q017_L__rep2__baseline,Q017_L__rep2,Q017_L,2,baseline,response,True,1,False,"[""DOC_017"", ""DOC_003"", ""DOC_006""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+627,Q017_L__rep2__faq_geo,Q017_L__rep2,Q017_L,2,faq_geo,response,True,1,False,"[""DOC_017"", ""DOC_006"", ""DOC_003""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+628,Q017_L__rep2__entity_structure_geo,Q017_L__rep2,Q017_L,2,entity_structure_geo,response,True,1,False,"[""DOC_017"", ""DOC_003"", ""DOC_006""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,fail,"[""First-ranked ID not present in answer"", ""Quote exceeds 50 words""]",stop
+629,Q018_L__rep3__baseline,Q018_L__rep3,Q018_L,3,baseline,response,True,1,False,"[""DOC_018"", ""DOC_005"", ""DOC_011""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,fail,"[""First-ranked ID not present in answer"", ""Quote not found after whitespace normalization""]",stop
+630,Q018_L__rep3__faq_geo,Q018_L__rep3,Q018_L,3,faq_geo,response,True,1,False,"[""DOC_018"", ""DOC_005"", ""DOC_003""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+631,Q018_L__rep3__full_geo,Q018_L__rep3,Q018_L,3,full_geo,response,True,1,False,"[""DOC_018"", ""DOC_005"", ""DOC_017""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+632,Q018_L__rep3__entity_structure_geo,Q018_L__rep3,Q018_L,3,entity_structure_geo,response,True,1,False,"[""DOC_018"", ""DOC_005"", ""DOC_003""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+633,Q017_T__rep1__full_geo,Q017_T__rep1,Q017_T,1,full_geo,response,True,1,False,"[""DOC_017"", ""DOC_006"", ""DOC_018""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,fail,"[""Quote not found after whitespace normalization""]",stop
+634,Q017_T__rep1__entity_structure_geo,Q017_T__rep1,Q017_T,1,entity_structure_geo,response,True,1,False,"[""DOC_017"", ""DOC_003"", ""DOC_006""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,fail,"[""Quote not found after whitespace normalization""]",stop
+635,Q017_T__rep1__faq_geo,Q017_T__rep1,Q017_T,1,faq_geo,response,True,1,False,"[""DOC_017"", ""DOC_003"", ""DOC_006""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,fail,"[""Quote exceeds 50 words""]",stop
+636,Q017_T__rep1__baseline,Q017_T__rep1,Q017_T,1,baseline,response,True,1,False,"[""DOC_017"", ""DOC_003"", ""DOC_006""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,fail,"[""Quote exceeds 50 words""]",stop
+637,Q009_L__rep1__entity_structure_geo,Q009_L__rep1,Q009_L,1,entity_structure_geo,response,True,1,False,"[""DOC_009"", ""DOC_010"", ""DOC_001""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+638,Q009_L__rep1__full_geo,Q009_L__rep1,Q009_L,1,full_geo,response,True,1,False,"[""DOC_009"", ""DOC_010"", ""DOC_001""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+639,Q009_L__rep1__baseline,Q009_L__rep1,Q009_L,1,baseline,response,True,1,False,"[""DOC_009"", ""DOC_010"", ""DOC_001""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+640,Q009_L__rep1__faq_geo,Q009_L__rep1,Q009_L,1,faq_geo,response,True,1,False,"[""DOC_009"", ""DOC_010"", ""DOC_001""]","[3, 1, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+641,Q013_T__rep3__entity_structure_geo,Q013_T__rep3,Q013_T,3,entity_structure_geo,response,True,1,False,"[""DOC_013"", ""DOC_004"", ""DOC_007""]","[3, 2, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+642,Q013_T__rep3__full_geo,Q013_T__rep3,Q013_T,3,full_geo,response,True,1,False,"[""DOC_013"", ""DOC_004"", ""DOC_014""]","[3, 2, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+643,Q013_T__rep3__faq_geo,Q013_T__rep3,Q013_T,3,faq_geo,response,True,1,False,"[""DOC_013"", ""DOC_004"", ""DOC_009""]","[3, 2, 0]",1.0,1.0,1,1,1.0,1,pass,[],stop
+644,Q013_T__rep3__baseline,Q013_T__rep3,Q013_T,3,baseline,response,True,1,False,"[""DOC_013"", ""DOC_004"", ""DOC_009""]","[3, 2, 0]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop
+645,Q007_T__rep1__full_geo,Q007_T__rep1,Q007_T,1,full_geo,response,True,1,False,"[""DOC_007"", ""DOC_008"", ""DOC_001""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+646,Q007_T__rep1__faq_geo,Q007_T__rep1,Q007_T,1,faq_geo,response,True,1,False,"[""DOC_007"", ""DOC_008"", ""DOC_001""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+647,Q007_T__rep1__entity_structure_geo,Q007_T__rep1,Q007_T,1,entity_structure_geo,response,True,1,False,"[""DOC_007"", ""DOC_008"", ""DOC_001""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,[],stop
+648,Q007_T__rep1__baseline,Q007_T__rep1,Q007_T,1,baseline,response,True,1,False,"[""DOC_007"", ""DOC_008"", ""DOC_001""]","[3, 1, 1]",1.0,1.0,1,1,1.0,1,pass,"[""First-ranked ID not present in answer""]",stop

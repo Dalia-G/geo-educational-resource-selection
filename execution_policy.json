@@ -1,0 +1,22 @@
+{
+  "version": "main-runner-v1-selection-evidence-separated",
+  "min_request_start_interval_seconds": 5,
+  "transport_retries_after_initial": 3,
+  "content_repair_retries": 0,
+  "relevance_threshold": 2,
+  "selection_usability": "Valid JSON object; boolean abstain; finish=stop; non-abstaining ranking has exactly three distinct supplied IDs. Explanation/citation/quote defects flagged separately.",
+  "valid_abstention": "Boolean true and empty ranking; selection success zero. Other evidence-field defects separately flagged.",
+  "quote_fidelity": "One/two quotes from first-ranked document, <=50 words each, exact substring after whitespace normalization only; absent evidence fails.",
+  "missing_transport": "No usable response; exclude incomplete four-condition blocks from primary paired comparison and report zero-outcome sensitivity.",
+  "recall_no_relevant_documents": "Undefined (blank), not zero",
+  "aggregation": "Average repetitions within query, then average query values; do not treat requests as independent queries.",
+  "paid_fallback": false,
+  "runner_sha256": "7a0d2fcfc7e6aa5436019fedda8951e481ad7c60035df7182115b523a24617e4",
+  "plan_file_hashes": {
+    "api_run_config_draft.json": "4d114fc4d84956e831bd4a931dcd4da4b3a07abbb582b30792e657cfa338ba4f",
+    "api_input_manifest.json": "a6b339ed7df00279808906ed70227b54fb32286a76e1132f7f7fa390fbd9658d",
+    "api_execution_schedule.csv": "050c301a50e1c541236aef4aec7d3bca0cf08e8cb5b6ff77900cdbb2edcde95c",
+    "api_label_mappings.json": "c2e37c0f24189d5d4ae7c3f9f38cbd90b2e5533e3878756daa74b9b391835f1c",
+    "system_prompt.txt": "c9687785240c292ba7ec31752ff6945a6d7303e793ff941e5cdd2cf18d21e381"
+  }
+}

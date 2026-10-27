@@ -1,0 +1,21 @@
+{
+  "audit_source": "G:\\papers\\new-experiment-for-mdbi-submittion\\main_study_working\\main_study_18\\api_plans\\main_plan_20261019T121514701660Z\\analysis\\human_audit_20261021T100019560537Z\\reviewer\\sheets\\all-batches-revised-utf8-reviewed.csv",
+  "audit_sha256": "9004380d9238fe8f8cf6a670c297e3a99ca05f78e825b1aa86d6a27f497db595",
+  "lookup_source": "G:\\papers\\new-experiment-for-mdbi-submittion\\main_study_working\\main_study_18\\api_plans\\main_plan_20261019T121514701660Z\\analysis\\human_audit_20261021T100019560537Z\\private_do_not_use_while_rating\\audit_lookup.csv",
+  "lookup_sha256": "0b448ff97a32e0fa8c1b6a022bdbe9bb7b985bba2ed2f0aa08934d9b3875961f",
+  "joined_records": 648,
+  "one_to_one_audit_id_match": true,
+  "condition_counts": {
+    "faq_geo": 162,
+    "entity_structure_geo": 162,
+    "baseline": 162,
+    "full_geo": 162
+  },
+  "json_parse_counts": {
+    "invalid": 62,
+    "valid": 586
+  },
+  "input_files_modified": false,
+  "ratings_changed": false,
+  "scope": "Fingerprint, mapping integrity and descriptive summaries only. Does not establish substantive rating correctness, rationale consistency, or original-attempt hash verification. Percentages use every record in the stated group; uncertainty and not-evaluable ratings remain separate. No inferential tests or primary-score changes were performed."
+}

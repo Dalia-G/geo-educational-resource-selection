@@ -1,0 +1,5 @@
+﻿condition,responses,queries,success_count,mean_first_selection_success
+baseline,162,54,147,0.9074074074074074
+entity_structure_geo,162,54,141,0.8703703703703703
+faq_geo,162,54,152,0.9382716049382716
+full_geo,162,54,146,0.9012345679012346

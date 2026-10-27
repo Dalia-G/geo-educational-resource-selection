@@ -1,0 +1,19 @@
+{
+  "created_utc": "2026-10-20T13:00:37.596821+00:00",
+  "input_sha256": "b51aa9a34305e0f8e3caeac05d2cc8c4b0fcb67be46dff54ea8e28c54a45c5c0",
+  "script_sha256": "356438beaf35ca17489d2c7c6af3a765ab1d446d285fcd52a36aefdafc08d9c2",
+  "input_rows": 648,
+  "endpoint": "Original first_selection_success; no output repair or rescoring",
+  "aggregation": "Average 3 repetitions per query, then 54 query averages; 18 resource blocks each include T/L/A queries",
+  "test": "Two-sided exact resource-block sign-flip; requires joint sign symmetry/exchangeability under null",
+  "multiplicity": "Holm correction across three primary GEO-versus-baseline comparisons",
+  "bootstrap": {
+    "type": "paired resource-block percentile",
+    "replicates": 20000,
+    "seed": 20261020,
+    "implementation_timing": "Bootstrap seed and percentile implementation set after outcomes were available; not claimed preregistered"
+  },
+  "limitations": "Protocol supplied as draft; verify final approved analysis plan. Human evidence audit remains outstanding.",
+  "original_files_modified": false,
+  "api_calls": 0
+}

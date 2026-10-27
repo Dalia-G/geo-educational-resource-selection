@@ -1,0 +1,302 @@
+[
+  {
+    "path": "corpus\\baseline\\DOC_001_baseline.md",
+    "sha256": "4962e66ffef059d5fc9f4f7fbf59a2a42680c6d55ab33c9ca35d7f12d64927d5"
+  },
+  {
+    "path": "corpus\\baseline\\DOC_002_baseline.md",
+    "sha256": "b8a08732e3fc31636c3c2ddbe6288c5e5452fd4d85daa64e67cbcf9b3798c3ac"
+  },
+  {
+    "path": "corpus\\baseline\\DOC_003_baseline.md",
+    "sha256": "69d60465237db229a07ec32921d5ec7af4f50fa67c4dbb006c2323f7a184f5bd"
+  },
+  {
+    "path": "corpus\\baseline\\DOC_004_baseline.md",
+    "sha256": "71af1e0218523e52db15e539478e4ad77fca0bf62e0817e3b8acfc70452aecde"
+  },
+  {
+    "path": "corpus\\baseline\\DOC_005_baseline.md",
+    "sha256": "488cfbeb1d163f63d5053b7a963f2d171a22770c9ef1fd67c41fa3a1438b3469"
+  },
+  {
+    "path": "corpus\\baseline\\DOC_006_baseline.md",
+    "sha256": "4ab2131bdce4c81f79246aa1793ee9a5670f99d7d7b45674f2f6cc3ef2a81555"
+  },
+  {
+    "path": "corpus\\baseline\\DOC_007_baseline.md",
+    "sha256": "885764d91f78b9c0d6f152d9109a8d2f92f44d5a529c7eac4dcaa5f146e95a97"
+  },
+  {
+    "path": "corpus\\baseline\\DOC_008_baseline.md",
+    "sha256": "866a4c51bd9aafb168195722c514b0efa134a222d02ccb9e948e8296d7d40450"
+  },
+  {
+    "path": "corpus\\baseline\\DOC_009_baseline.md",
+    "sha256": "3c4df20c453ac93277a8ba15606b1fd9a38034739e80dd254272af998bc409c6"
+  },
+  {
+    "path": "corpus\\baseline\\DOC_010_baseline.md",
+    "sha256": "6d0d62a8dfd66fb8745cdb578725d4dd36631721bfe26d4df9732264b105dfe7"
+  },
+  {
+    "path": "corpus\\baseline\\DOC_011_baseline.md",
+    "sha256": "d70cc4e1ccb6ee472f1ae96c6a48e02276188c70061bb40194afd087ad5aef13"
+  },
+  {
+    "path": "corpus\\baseline\\DOC_012_baseline.md",
+    "sha256": "8756be1010dd885fccc8568888c2106f86c481f968ff314d03b6b893e7078d2b"
+  },
+  {
+    "path": "corpus\\baseline\\DOC_013_baseline.md",
+    "sha256": "21ae6169e29cb3fb4d8ebfa049e40d4b9ea92eec1ac4ffd49c90e47a30d865a2"
+  },
+  {
+    "path": "corpus\\baseline\\DOC_014_baseline.md",
+    "sha256": "04e465b0094188716410a3e5f4cdfd6dab9eedb41af9ecf39fae54f31c845e0d"
+  },
+  {
+    "path": "corpus\\baseline\\DOC_015_baseline.md",
+    "sha256": "3484dc15db07b1bab560bc45d08e63a5a863f002632d9c8c48ece4d8132c73e6"
+  },
+  {
+    "path": "corpus\\baseline\\DOC_016_baseline.md",
+    "sha256": "e1181c748312e741a5249660b220a2bbe0da0ca4ce9e8ad4c92584a2905dee7a"
+  },
+  {
+    "path": "corpus\\baseline\\DOC_017_baseline.md",
+    "sha256": "9ef256fa9daf703eafe24eaf69d4ae66cb0d2587a8dfea5f05e95b6f8c42a0ed"
+  },
+  {
+    "path": "corpus\\baseline\\DOC_018_baseline.md",
+    "sha256": "92b01aabce75a30ee8135bad07fa695ff4f92bcd38c942b2d5dae563f3f7f7f2"
+  },
+  {
+    "path": "corpus\\entity_structure_geo\\DOC_001_entity_structure_geo.md",
+    "sha256": "437955cfb44f258cf66ef701f8fadb28eb86bc66bc000f6bcad699b3196709a7"
+  },
+  {
+    "path": "corpus\\entity_structure_geo\\DOC_002_entity_structure_geo.md",
+    "sha256": "b4b8ec477d16ebce7e147c2a7c2648531f3f7c802fdcdbcbe42ab8b70e358062"
+  },
+  {
+    "path": "corpus\\entity_structure_geo\\DOC_003_entity_structure_geo.md",
+    "sha256": "dd0a345e0332acd624258b5b5c0f25518cb7a08be6e8316b4ada42a863dffdae"
+  },
+  {
+    "path": "corpus\\entity_structure_geo\\DOC_004_entity_structure_geo.md",
+    "sha256": "7d141629028241a362d1a1d92048500ef4f36769fc187c4559f0352b1c322388"
+  },
+  {
+    "path": "corpus\\entity_structure_geo\\DOC_005_entity_structure_geo.md",
+    "sha256": "d2fdf07da50c2dcb5fcfa3ca5c54f990a844c57dab9a357c4380cca4799fa93f"
+  },
+  {
+    "path": "corpus\\entity_structure_geo\\DOC_006_entity_structure_geo.md",
+    "sha256": "8462ec93a01388b9ff392ec5cc6fce791949868c04105fef6fbe35c7243b484d"
+  },
+  {
+    "path": "corpus\\entity_structure_geo\\DOC_007_entity_structure_geo.md",
+    "sha256": "105768c451280189d6b7969fb8d10f877583223dffd6e736f7451006e5835999"
+  },
+  {
+    "path": "corpus\\entity_structure_geo\\DOC_008_entity_structure_geo.md",
+    "sha256": "3bde0c958d3b1b2bd9d90e1011b7ef48dbf8cb5b1e7f0e51b26d876f1b99977a"
+  },
+  {
+    "path": "corpus\\entity_structure_geo\\DOC_009_entity_structure_geo.md",
+    "sha256": "3b9ad2070d772ea10d071488a76440722d77f1f6e008ea149d7ed1efbd3f0af9"
+  },
+  {
+    "path": "corpus\\entity_structure_geo\\DOC_010_entity_structure_geo.md",
+    "sha256": "ade4b7c6ac2dbf1b932444e042dcc347a7b3cf70b7b34615f49016a00240d527"
+  },
+  {
+    "path": "corpus\\entity_structure_geo\\DOC_011_entity_structure_geo.md",
+    "sha256": "ebefc6073351cb04db3769bbd66910a9f828eaba0281e866f7965f97f9295c7e"
+  },
+  {
+    "path": "corpus\\entity_structure_geo\\DOC_012_entity_structure_geo.md",
+    "sha256": "751c9c335bbeadba125dc47829e1caf0f8d605ff99d43260b34e781fc08ab39f"
+  },
+  {
+    "path": "corpus\\entity_structure_geo\\DOC_013_entity_structure_geo.md",
+    "sha256": "a41ff210b3aa03aef46e18677938418b4a665bed151877281242fb9bde0e77f9"
+  },
+  {
+    "path": "corpus\\entity_structure_geo\\DOC_014_entity_structure_geo.md",
+    "sha256": "53cf256c4b65d2bb095e854014fdd36f38a24b30d3bf39c48aa6229d44c810d9"
+  },
+  {
+    "path": "corpus\\entity_structure_geo\\DOC_015_entity_structure_geo.md",
+    "sha256": "6f019240b6e47cdbcefe30289d029d068c263b544db784cb4c26d2182dda4da1"
+  },
+  {
+    "path": "corpus\\entity_structure_geo\\DOC_016_entity_structure_geo.md",
+    "sha256": "590d4a8fbfa165959051eb8991c603f8e92fa67d2e52377882e36f1a9430a4c5"
+  },
+  {
+    "path": "corpus\\entity_structure_geo\\DOC_017_entity_structure_geo.md",
+    "sha256": "3699ceb66482a3eb5c90d952ede3340c55a738576b1915e15d1cf63fd359bbd0"
+  },
+  {
+    "path": "corpus\\entity_structure_geo\\DOC_018_entity_structure_geo.md",
+    "sha256": "25924ee0a6be10ba1940abb8238e5a6dcb7dba1627fb06b58bc0689bcd114b8a"
+  },
+  {
+    "path": "corpus\\faq_geo\\DOC_001_faq_geo.md",
+    "sha256": "ffa469b31cc1112bf9f255bab728998d37ba0399921438b370f321e515a1ed62"
+  },
+  {
+    "path": "corpus\\faq_geo\\DOC_002_faq_geo.md",
+    "sha256": "92d65e4e2cab8ce2891ccc2b5717861cdf81f520bd2d7cb3f0a19185978bbd07"
+  },
+  {
+    "path": "corpus\\faq_geo\\DOC_003_faq_geo.md",
+    "sha256": "a301b1f4bcffe3281c4fce392e089994c354fcf7c315ee37f5d700f0fd140ef4"
+  },
+  {
+    "path": "corpus\\faq_geo\\DOC_004_faq_geo.md",
+    "sha256": "567477f86c5ac3d4235c6fe761268ec2b5370963f8d59a58dee06463a07a7c6a"
+  },
+  {
+    "path": "corpus\\faq_geo\\DOC_005_faq_geo.md",
+    "sha256": "db43411a551cc04061b45406fa54a657b7c82da51b494af37f23883c968c50b5"
+  },
+  {
+    "path": "corpus\\faq_geo\\DOC_006_faq_geo.md",
+    "sha256": "b7afdbc98968b8207285e35d32a8a22c6f67edfc76aeea849402594b06db11b1"
+  },
+  {
+    "path": "corpus\\faq_geo\\DOC_007_faq_geo.md",
+    "sha256": "5ef23717681d3db42e3787577ab30d75bee1bc19f9ee96ef47eabae180e1da81"
+  },
+  {
+    "path": "corpus\\faq_geo\\DOC_008_faq_geo.md",
+    "sha256": "bfd5c570b3c2385ec14a55cad132cd093ae92e3b0bd23165aedfad87fd80c23b"
+  },
+  {
+    "path": "corpus\\faq_geo\\DOC_009_faq_geo.md",
+    "sha256": "99ef04337492d5bb09fb882f5f991e60133043a7161bf65ef6bdc6d8ba2dee42"
+  },
+  {
+    "path": "corpus\\faq_geo\\DOC_010_faq_geo.md",
+    "sha256": "bc0371f211a4ce718e08ae292b34ad8c871b4ccbd1f8ccc11f25705e9026a1b3"
+  },
+  {
+    "path": "corpus\\faq_geo\\DOC_011_faq_geo.md",
+    "sha256": "5e4e889809493c68d3f797a81977460fd9f451a6fe72d104178959dfd9f5acb3"
+  },
+  {
+    "path": "corpus\\faq_geo\\DOC_012_faq_geo.md",
+    "sha256": "13e3a822faccc8a0fb66583383a6ffe755a43c09917ab900e5b55bcd362f5933"
+  },
+  {
+    "path": "corpus\\faq_geo\\DOC_013_faq_geo.md",
+    "sha256": "d1f0ceb311a65786728c8e064ff6b00513154a59bda466e79b7e1c94d021ba73"
+  },
+  {
+    "path": "corpus\\faq_geo\\DOC_014_faq_geo.md",
+    "sha256": "b2cbcba524bb9bfc01c95af95af7515b3f54b167a8edcf40a464ff8cb10d6d45"
+  },
+  {
+    "path": "corpus\\faq_geo\\DOC_015_faq_geo.md",
+    "sha256": "73b48922043088b29cd3ecfd08c3074c27d39f537c84d99b0ba105f800d352a4"
+  },
+  {
+    "path": "corpus\\faq_geo\\DOC_016_faq_geo.md",
+    "sha256": "e70dc903b955415306a07902a992d5a9af58389be0ffa4a269f6b45b431ebdfd"
+  },
+  {
+    "path": "corpus\\faq_geo\\DOC_017_faq_geo.md",
+    "sha256": "7a596f77ac4ad36229f3cd1721b07af79755b6f483d2d0fc66dea39a3f28fbd8"
+  },
+  {
+    "path": "corpus\\faq_geo\\DOC_018_faq_geo.md",
+    "sha256": "0cf0002b80c8b32c092de87ce2d759106deabe8e4433380120390a2a98b433bf"
+  },
+  {
+    "path": "corpus\\full_geo\\DOC_001_full_geo.md",
+    "sha256": "e3fe30a39e98335ea901e997354cf44d07b7ba54b84b683cc4949dfa8da5107b"
+  },
+  {
+    "path": "corpus\\full_geo\\DOC_002_full_geo.md",
+    "sha256": "322a22dbe31a55fef0f3e11957bad9b02970b466ac0483b534411963078a3c1b"
+  },
+  {
+    "path": "corpus\\full_geo\\DOC_003_full_geo.md",
+    "sha256": "17f87411eeed0478c60b99385b95e8f9ed4edec5301cf7296c3b7814fdd2fcf0"
+  },
+  {
+    "path": "corpus\\full_geo\\DOC_004_full_geo.md",
+    "sha256": "ab3d0b2c7f3469c91dc9da428b8533dac01d2df13b4b399ee66d6f3ac4d22b3e"
+  },
+  {
+    "path": "corpus\\full_geo\\DOC_005_full_geo.md",
+    "sha256": "29e27c86365dea46a80c12942a510217a88b956aed34abe3bb431082d08a5623"
+  },
+  {
+    "path": "corpus\\full_geo\\DOC_006_full_geo.md",
+    "sha256": "771dd9dd26d01d3aa9f8e06635ba18087ecab0c55e25052fb21b3a280351a7e4"
+  },
+  {
+    "path": "corpus\\full_geo\\DOC_007_full_geo.md",
+    "sha256": "dada593953b00fd3144938ec09a4a2645ac3d47aff83f870695ed5f060e82f11"
+  },
+  {
+    "path": "corpus\\full_geo\\DOC_008_full_geo.md",
+    "sha256": "3f82e0d6ab5b3e4108a20fa6a144e69531cc2c96a859a80ea4bdabd86d6af5e2"
+  },
+  {
+    "path": "corpus\\full_geo\\DOC_009_full_geo.md",
+    "sha256": "1d7d8395cbb9e8d5a6f2bf96e7152f769f05fdd4945a5e4cf78ee74fa798d18a"
+  },
+  {
+    "path": "corpus\\full_geo\\DOC_010_full_geo.md",
+    "sha256": "4447d44bd7dd506b58b8b08bd118e25f28423bc88fd1ae33b26962dd3fe202dc"
+  },
+  {
+    "path": "corpus\\full_geo\\DOC_011_full_geo.md",
+    "sha256": "81f265afac52a9febc90bbc7f9c57a6755c4cf454ab983b01b96f35f21efbe93"
+  },
+  {
+    "path": "corpus\\full_geo\\DOC_012_full_geo.md",
+    "sha256": "4d971cd925b9d0626f16feb313adcc07a33d9ab60b705c1d56b603fbebedc7f6"
+  },
+  {
+    "path": "corpus\\full_geo\\DOC_013_full_geo.md",
+    "sha256": "7a01278865018e0c55d133b465c7d9c10465ef8fd8631f60a52b6fdb7a4caecb"
+  },
+  {
+    "path": "corpus\\full_geo\\DOC_014_full_geo.md",
+    "sha256": "64c1aa208bd56699449ce2f6c81de5531080fcb2cf3536e5cc8d9b22803e9c97"
+  },
+  {
+    "path": "corpus\\full_geo\\DOC_015_full_geo.md",
+    "sha256": "3dc1dba4cc63d13b601e47cf9c8cc055d836d9e46209a72ffaef74389445cc74"
+  },
+  {
+    "path": "corpus\\full_geo\\DOC_016_full_geo.md",
+    "sha256": "a40f3c26f21a00c4a71223767814fe5221d8de63f5ed073e22840dda67e4d5d6"
+  },
+  {
+    "path": "corpus\\full_geo\\DOC_017_full_geo.md",
+    "sha256": "278f0073d9a54f59cf37736410458dc3e5f593be69f9218d854bc483a58ab47f"
+  },
+  {
+    "path": "corpus\\full_geo\\DOC_018_full_geo.md",
+    "sha256": "b9f6581d34b9ef773b277c5d3138214caa1153092b2be4ae23dcbed38c6b0ab6"
+  },
+  {
+    "path": "queries\\main_study_query_set.csv",
+    "sha256": "285cd470ee5ff1812bb9383414accf315e1bed621e496af4d9601a09fcf285e9"
+  },
+  {
+    "path": "audit\\evaluation_labels_20261019T114429915974Z\\evaluation_labels.csv",
+    "sha256": "2926b178bc931b40a4efe52827dd8fda40e0e737363a53f93f9aa51161d42ba3"
+  },
+  {
+    "path": "api_outputs\\technical_test_20261019T104655100269Z\\config.json",
+    "sha256": "89e32100c1728b6c9f441587fa3371d4ec1a8f8618d929d4baa25041f3be9814"
+  }
+]

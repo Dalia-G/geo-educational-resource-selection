@@ -1,0 +1,41 @@
+{
+  "status": "DRAFT FOR REVIEW - EXECUTION NOT AUTHORIZED",
+  "created_utc": "2026-10-19T12:15:14.701660+00:00",
+  "scheduled_requests": 648,
+  "unique_queries": 54,
+  "conditions": [
+    "baseline",
+    "entity_structure_geo",
+    "faq_geo",
+    "full_geo"
+  ],
+  "repetitions": 3,
+  "schedule_seed": 20261019,
+  "model": "nvidia/nemotron-3-ultra-550b-a55b",
+  "base_url": "https://integrate.api.nvidia.com/v1",
+  "temperature": 1,
+  "top_p": 0.95,
+  "max_tokens": 2048,
+  "enable_thinking": false,
+  "stream": false,
+  "structured_output": "Prompt-requested JSON; no schema-enforcement claim",
+  "prompt_source": "api_outputs\\technical_test_20261019T104655100269Z\\config.json",
+  "system_prompt_sha256": "3810ba519d35aa861adea697418b9675945d93f9663153f2b401f84224aeca01",
+  "evaluation_labels": "audit\\evaluation_labels_20261019T114429915974Z\\evaluation_labels.csv",
+  "relevant_grade_minimum": 2,
+  "quote_validation": "Exact substring after whitespace normalization only",
+  "retry_policy_proposed": {
+    "transient_transport_retries_max": 3,
+    "identical_request_only": true,
+    "content_repair_retries": 0,
+    "authentication_or_configuration_error": "Stop",
+    "preserve_all_attempts": true
+  },
+  "technical_tests_in_main_results": false,
+  "pending_before_execution": [
+    "Review and approve configuration and failure-scoring definitions",
+    "Verify provider quota, usage estimate, budget or credit limit",
+    "Approve execution separately and define execution window",
+    "Specify runner logging, checkpointing, backoff, and model-change checks"
+  ]
+}
