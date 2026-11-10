@@ -1,0 +1,14 @@
+{
+ "study": "Study 2: competitive target-only GEO with same-department competitors and schema-enforced JSON",
+ "base_url": "https://integrate.api.nvidia.com/v1",
+ "models": [
+  {"label": "M1", "model_id": "nvidia/nemotron-3-ultra-550b-a55b", "family": "NVIDIA Nemotron", "structured_output": "response_format_json_schema", "extra_body": {"chat_template_kwargs": {"enable_thinking": false}}},
+  {"label": "M2", "model_id": "minimaxai/minimax-m3.1-flash", "family": "MiniMax", "structured_output": "response_format_json_schema", "extra_body": {}}
+ ],
+ "conditions": ["baseline", "entity_structure_geo", "faq_geo", "full_geo"],
+ "temperature": 1.0, "top_p": 0.95, "max_tokens": 2048, "timeout_seconds": 300,
+ "min_seconds_between_requests": 5, "max_transport_retries": 3,
+ "schedule_seed": 20261029, "bootstrap_seed": 20261030, "bootstrap_resamples": 10000,
+ "equivalence_margin_pp": 10,
+ "model2_selection": "source/model2_selection_log.json"
+}

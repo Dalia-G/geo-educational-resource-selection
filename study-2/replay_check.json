@@ -1,0 +1,20 @@
+{
+ "results_rescored": 1294,
+ "metric_mismatches": 0,
+ "request_bodies_rebuilt_mismatch": 0,
+ "transport_exhausted": 2,
+ "returned_model_ids": {
+  "M1": [
+   "nvidia/nemotron-3-ultra-550b-a55b"
+  ],
+  "M2": [
+   "minimaxai/minimax-m3.1-flash"
+  ]
+ },
+ "successful_attempt_number_counts": {
+  "1": 972,
+  "2": 231,
+  "3": 74,
+  "4": 17
+ }
+}
